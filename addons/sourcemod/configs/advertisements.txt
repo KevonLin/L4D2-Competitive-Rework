@@ -1,0 +1,32 @@
+// Advertisements 2.0
+// by Tsunami
+//
+// Types
+// -----
+// center: Center message
+// chat: Chat message
+// hint: Hint message
+// menu: Menu message
+// top: Top message
+//
+// Flags (optional)
+// -----
+// Accepts flags of admins that will not see the advertisement.
+// When omitted everyone will see the advertisement.
+// When left empty only admins will see the advertisement.
+
+"Advertisements"
+{
+   	"1"
+    {
+         "chat"			"{LIGHTGREEN}欢迎来到求生之路托儿所,QQ群:643157074"
+    }
+	"2"
+    {
+        "chat"			"{LIGHTGREEN}本服务器受反作弊系统保护"
+    }
+	"3"
+    {
+        "chat"			"{LIGHTGREEN}对抗插件详细访问服务器Steam组"
+    }
+}

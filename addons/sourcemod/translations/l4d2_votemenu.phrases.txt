@@ -1,0 +1,206 @@
+"Phrases"
+{
+    "Menu name"
+    {
+        "chi"       "投票菜单"
+        "en"        "Vote Menu"
+    }
+
+    "Give hp"
+    {
+        "chi"       "恢复生命值"
+        "en"        "Recovery Health"
+    }
+
+    "Give pills"
+    {
+        "chi"       "发止痛药"
+        "en"        "Give Pills"
+    }
+
+    "Change slots"
+    {
+        "chi"       "更改旁观"
+        "en"        "Limit Slots"
+    }
+    
+    "Next map"
+    {
+        "chi"       "下一张图"
+        "en"        "Next Map"
+    }
+
+    "Change custom maps"
+    {
+        "chi"       "更换三方图"
+        "en"        "Change Custom Maps"
+    }
+
+    "Ban players"
+    {
+        "chi"       "封禁玩家"
+        "en"        "Ban Player"
+    }
+
+    "Kick players"
+    {
+        "chi"       "踢出玩家"
+        "en"        "Kick Player"
+    }
+
+    "Mute players"
+    {
+        "chi"       "静音玩家"
+        "en"        "Mute Player"
+    }
+
+    "Toggle addons"
+    {
+        "chi"       "启用/禁用 Mod"
+        "en"        "Enable/Disable Addons"
+    }
+
+    "Toggle ready"
+    {
+        "chi"       "启用/禁用 Ready"
+        "en"        "Enable/Disable Ready"
+    }
+
+    "Toggle lerp filter"
+    {
+        "chi"       "启用/禁用Lerp过滤"
+        "en"        "Toggle the lerp filter"
+    }
+
+    "Change config"
+    {
+        "chi"       "更换插件"
+        "en"        "Change Config"
+    }
+
+    "Slots Menu"
+    {
+        "chi"       "修改服务器人数"
+        "en"        "Change Slots Menu"
+    }
+
+    "Slots 8"
+    {
+        "chi"       "更改服务器最大人数至8人"
+        "en"        "Limit slots to 8"
+    }
+
+    "Slots 10"
+    {
+        "chi"       "更改服务器最大人数至10人"
+        "en"        "Limit slots to 10"
+    }
+
+    "Slots 12"
+    {
+        "chi"       "更改服务器最大人数至12人"
+        "en"        "Limit slots to 12"
+    }
+
+    "Slots 14"
+    {
+        "chi"       "更改服务器最大人数至14人"
+        "en"        "Limit slots to 14"
+    }
+
+    "Slots 16"
+    {
+        "chi"       "更改服务器最大人数至16人"
+        "en"        "Limit slots to 16"
+    }
+
+    "Select map menu"
+    {
+        "chi"       "选择地图"
+        "en"        "Select a map"
+    }
+
+    "Select pleyer menu"
+    {
+        "chi"       "选择玩家"
+        "en"        "Select a player"
+    }
+
+    "Kick all spectators"
+    {
+        "chi"       "踢出所有旁观"
+        "en"        "Kick all spectators"
+    }
+
+    "Enable addons"
+    {
+        "chi"       "启用 Mod"
+        "en"        "Enable Mod"
+    }
+
+    "Disable addons"
+    {
+        "chi"       "禁止 Mod"
+        "en"        "Disable Mod"
+    }
+
+    "Enable ready"
+    {
+        "chi"       "启用 Ready"
+        "en"        "Enable Ready"
+    }
+
+    "Disable ready"
+    {
+        "chi"       "禁止 Ready"
+        "en"        "Disable Ready"
+    }
+
+    "Enable lerp filter"
+    {
+        "chi"       "启用 lerp filter"
+        "en"        "Enable lerp filter"
+    }
+
+    "Disable lerp filter"
+    {
+        "chi"       "禁止 lerp filter"
+        "en"        "Disable lerp filter"
+    }
+
+    "Match mode menu"
+    {
+        "chi"       "选择插件类型"
+        "en"        "Select match mode"
+    }
+
+    "Match config menu"
+    {
+        "chi"       "选择配置"
+        "en"        "Select config"
+    }
+
+    "Give hp context"
+    {
+        "chi"       "恢复所有幸存者生命值?"
+        "en"        "Recovery Health"
+    }
+
+    "Give pills context"
+    {
+        "chi"       "给所有幸存者发止痛药?"
+        "en"        "Give Pills"
+    }
+
+    "Vote next map"
+    {
+        "chi"       "投票下一张地图"
+        "en"        "Vote next map to"
+    }
+
+    "Change custom map"
+    {
+        "chi"       "投票第三方地图"
+        "en"        "Change the custom map"
+    }
+}

@@ -1,0 +1,73 @@
+"VoteNextCampaigns"
+{
+	"1"
+	{
+		"mapinfo"		"c1m1_hotel"
+		"mapname"		"Dead Center (4 Maps)"
+	}
+	"2"
+	{
+		"mapinfo"		"c2m1_highway"
+		"mapname"		"Dark Carnival (5 Maps)"
+	}
+	"3"
+	{
+		"mapinfo"		"c3m1_plankcountry"
+		"mapname"		"Swamp fever (4 maps)"
+	}
+	"4"
+	{
+		"mapinfo"		"c4m1_milltown_a"
+		"mapname"		"Hard Rain (5 Maps)"
+	}
+	"5"
+	{
+		"mapinfo"		"c5m1_waterfront"
+		"mapname"		"The Parish (5 Maps)"
+	}
+	"6"
+	{
+		"mapinfo"		"c6m1_riverbank"
+		"mapname"		"The Passing (3 Maps)"
+	}
+	"7"
+	{
+		"mapinfo"		"c7m1_docks"
+		"mapname"		"The Sacrifice (3 Maps)"
+	}
+	"8"
+	{
+		"mapinfo"		"c8m1_apartment"
+		"mapname"		"No Mercy (5 Maps)"
+	}
+	"9"
+	{
+		"mapinfo"		"c9m1_alleys"
+		"mapname"		"Crash Course (2 Maps)"
+	}
+	"10"
+	{
+		"mapinfo"		"c10m1_caves"
+		"mapname"		"Death Toll (5 Maps)"
+	}
+	"11"
+	{
+		"mapinfo"		"c11m1_greenhouse"
+		"mapname"		"Dead Air (5 Maps)"
+	}
+	"12"
+	{
+		"mapinfo"		"c12m1_hilltop"
+		"mapname"		"Blood Harvest (5 Maps)"
+	}
+	"13"
+	{
+		"mapinfo"		"c13m1_alpinecreek"
+		"mapname"		"Hard Rain (5 Maps)"
+	}
+	"14"
+	{
+		"mapinfo"		"c14m1_junkyard"
+		"mapname"		"The Last Stand (2 Maps)"
+	}
+}
