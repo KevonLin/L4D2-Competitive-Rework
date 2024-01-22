@@ -38,7 +38,7 @@ SVNUM=1
 IP=0.0.0.0
 PORT=27015
 NAME=L4D2_Server$SVNUM
-PARAMS="-game left4dead2 -ip $IP -port $PORT -timeout 10 -tickrate 100 -autoupdate -steam_dir /home/steam/steamcmd.sh -steamcmd_script $DIR/left4dead2/l4d2_update.txt +map c2m1_highway +exec server.cfg"
+PARAMS="-game left4dead2 -ip $IP -port $PORT -timeout 10 -tickrate 100 +map c2m1_highway +exec server.cfg"
 DESC="L4D2 Dedicated Server #$SVNUM on port $PORT"
 
 
