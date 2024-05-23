@@ -8,7 +8,7 @@
 		}
 		"zonemodrv"
 		{
-			"name" "ZoneMod RV 2.8.9b"
+			"name" "ZoneMod RV 2.8.9c"
 		}
 		"zonemodremix"
 		{
@@ -19,19 +19,15 @@
 	{
 		"zonemod"
 		{
-			"name" "ZoneMod 2.8.9b"
+			"name" "ZoneMod 2.8.9c"
 		}
 		"zoneretro"
 		{
-			"name" "ZoneMod Retro 2.8.9b"
+			"name" "ZoneMod Retro 2.8.9c"
 		}
 		"neomod"
 		{
 			"name" "NeoMod Tourney 0.4a"
-		}
-		"nextmod"
-		{
-			"name" "NextMod 1.0.5"
 		}
 		"pmelite"
 		{
@@ -55,7 +51,7 @@
 		}
 		"zonehunters"
 		{
-			"name" "ZoneHunters 2.8.9b"
+			"name" "ZoneHunters 2.8.9c"
 		}
 	}
 }
