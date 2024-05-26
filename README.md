@@ -1,32 +1,21 @@
 # **L4D2 Competitive Rework**
 
 **IMPORTANT NOTES** - **DON'T IGNORE THESE!**
-<<<<<<< HEAD
-* The goal for this repo is to work on **Linux**, specifically Ubuntu/Debian.
-> There is Windows support in this repo, but not everything is, you are of course welcome to contribute to get Windows fully up to date! 
-=======
 * The goal for this repo is to work on **Linux**, but Windows support is available.
+* Ensure that your machine is running at least **Ubuntu 20.04** (GLIB minimum of 2.31)
 > While Windows is supported by the repository, there may be things that don't fully function on Windows that we may have missed.
 > Please report any issues you run into!
->>>>>>> master
 * This repository only supports Sourcemod **1.11** and up.
+* Everything on this repository is being tested on Sourcemod **1.12** (specifically **1.12.7137**) as of the 25th of May, 2024.
 
 ## **About:**
 
-<<<<<<< HEAD
-This is mainly a project that focuses on reworking the very outdated platform for competitive L4D2 for **Linux** Servers.
-It will contain both much needed fixes that are simply unable to be implemented on the older sourcemod versions as well as incompatible and outdated files being updated to working versions.
-
-> **Included Matchmodes:**
-* **Zonemod 2.8.4**
-=======
 This project started off with a focus on reworking the very outdated platform for competitive L4D2.
 In its current state it allows anyone to host their own up to date competitive L4D2 servers.
 This project is **Actively Developed**.
 
 > **Included Matchmodes:**
-* **Zonemod 2.8.9**
->>>>>>> master
+* **Zonemod 2.8.9c**
 * **Zonemod Hunters**
 * **Zonemod Retro**
 * **NeoMod 0.4a** 
@@ -65,10 +54,6 @@ This project is **Actively Developed**.
 
 > **Additional Plugins/Extensions:**
 * Accelerator74
-<<<<<<< HEAD
-* 
-=======
->>>>>>> master
 * Arti 
 * AtomicStryker 
 * Backwards
@@ -113,10 +98,7 @@ This project is **Actively Developed**.
 
 
 > **Competitive Mapping Rework:**
-<<<<<<< HEAD
-=======
 * Aiden
->>>>>>> master
 * Derpduck
 
 > **Testing/Issue Reporting:**
