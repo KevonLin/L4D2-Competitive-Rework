@@ -1,6 +1,8 @@
 # **CLVPlus**
 根据Sir的插件添加个人插件。
-
+* mix插件
+* sourcebans套件
+* lilac反作弊
 * sm_hp回血功能。
 * all4dead2控制。
 * sm_mpg改旁观。
@@ -15,8 +17,6 @@
 * 自动换图
 * 复活传送插件
 * 服务器自动重启
-
-
 ## **需要修改的部分**
 * databases.cfg中的数据库部分。
 * sourcebans.cfg中的网站部分。
