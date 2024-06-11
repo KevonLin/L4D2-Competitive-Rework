@@ -1,0 +1,48 @@
+"VoteCustomCampaigns"
+{
+	"1"
+	{
+		"mapinfo"		"dkr_m1_motel"
+		"mapname"		"Dark Carnival Remix(C2 Remix)"
+	}
+	"2"
+	{
+		"mapinfo"		"dprm1_milltown_a"
+		"mapname"		"Hard Rain: Down Pour(C4 Remix)"
+	}
+	"3"
+	{
+		"mapinfo"		"c5m1_darkwaterfront"
+		"mapname"		"Dark Waterfront(C5 Remix)"
+	}
+	"4"
+	{
+		"mapinfo"		"l4d2_city17_01"
+		"mapname"		"City 17"
+	}
+	"5"
+	{
+		"mapinfo"		"l4d2_oldbreak01_hotel"
+		"mapname"		"Day Break"
+	}
+	"6"
+	{
+		"mapinfo"		"l4d_yama_1"
+		"mapname"		"Yama"
+	}
+	"7"
+	{
+		"mapinfo"		"uz_crash"
+		"mapname"		"Undead Zone"
+	}
+	"8"
+	{
+		"mapinfo"		"l4d2_diescraper1_apartment_361"
+		"mapname"		"Diescraper Redux"
+	}
+	"9"
+	{
+		"mapinfo"		"l4d2_stadium1_apartment"
+		"mapname"		"Sucide Blitz 2"
+	}
+}
