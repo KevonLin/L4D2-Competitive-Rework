@@ -32,6 +32,10 @@ sed -i '/sm plugins load optional\/temphealthfix.smx/a sm plugins load optional/
 # 在 sm plugins load optional/l4d2_profitless_ai_tank.smx 下方添加 sm plugins load optional/l4d2_ultra_witch.smx
 sed -i '/sm plugins load optional\/l4d2_profitless_ai_tank.smx/a sm plugins load optional/l4d2_ultra_witch.smx' cfg/cfgogl/zonemodrv/shared_plugins.cfg
 
+# 在 cfg/cfgogl/zonemodrv/shared_plugins.cfg 文件中注释掉 sm plugins load optional/l4d_common_ragdolls_be_gone.smx
+sed -i 's/^sm plugins load optional\/l4d_common_ragdolls_be_gone.smx/\/\/&/' cfg/cfgogl/zonemodrv/shared_plugins.cfg
+
+
 # 修改shared_settings.cfg文件
 # 在 confogl_addcvar vs_tank_rock_damage 24 行下方空一行添加
 # // [l4d2_ultra_witch.smx]
