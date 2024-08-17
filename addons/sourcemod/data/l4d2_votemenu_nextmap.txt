@@ -44,6 +44,7 @@
 	{
 		"mapinfo"		"c9m1_alleys"
 		"mapname"		"Crash Course (2 Maps)"
+	}
 	"10"
 	{
 		"mapinfo"		"c10m1_caves"
