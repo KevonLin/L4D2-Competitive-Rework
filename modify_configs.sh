@@ -1,5 +1,20 @@
 #! /bin/bash
 
+# 定义文件夹路径
+DIR="cfg/cfgogl/zonemodrv"
+
+# 检查文件夹是否存在
+if [ -d "$DIR" ]; then
+    # 删除文件夹
+    rm -r "$DIR"
+    echo "Path $DIR has deleted."
+else
+    echo "Path $DIR does not exist."
+    cp -r cfg/cfgogl/zonemod $DIR
+    mv $DIR/zonemod.cfg $DIR/zonemodrv.cfg
+    echo "Path $DIR has created."
+fi
+
 # 修改插件信息和目录信息
 # 替换“ZoneMod - Competitive L4D2 Configuration”为“ZoneMod RV - Competitive L4D2 Configuration”
 find cfg/cfgogl/zonemodrv/ -type f -name "*.cfg" -exec sed -i 's|// ZoneMod - Competitive L4D2 Configuration|// ZoneMod RV - Competitive L4D2 Configuration|g' {} \;
