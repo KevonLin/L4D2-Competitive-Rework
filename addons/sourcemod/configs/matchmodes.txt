@@ -4,15 +4,15 @@
 	{
 		"zonemodrv"
 		{
-			"name" "ZoneMod RV 2.8.9d"
+			"name" "ZoneMod RV 2.8.9e"
 		}
 		"zonemod"
 		{
-			"name" "ZoneMod 2.8.9d"
+			"name" "ZoneMod 2.8.9e"
 		}
 		"zoneretro"
 		{
-			"name" "ZoneMod Retro 2.8.9d"
+			"name" "ZoneMod Retro 2.8.9e"
 		}
 		"neomod"
 		{
