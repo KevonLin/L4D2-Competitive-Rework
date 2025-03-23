@@ -31,6 +31,8 @@ sed -i 's|exec cfgogl/zonemodrv/zonemod.cfg|exec cfgogl/zonemodrv/zonemodrv.cfg|
 
 
 # 修改shared_cvars.cfg文件
+# 删除 confogl_boss_unprohibit 行
+sed -i '/confogl_boss_unprohibit/d' shared_cvars.cfg
 # 将 confogl_addcvar sv_allow_lobby_connect_only 修改为 //confogl_addcvar sv_allow_lobby_connect_only
 sed -i 's|confogl_addcvar sv_allow_lobby_connect_only|//confogl_addcvar sv_allow_lobby_connect_only|g' cfg/cfgogl/zonemodrv/shared_cvars.cfg
 
@@ -56,9 +58,6 @@ sed -i 's/^sm plugins load optional\/l4d_common_ragdolls_be_gone.smx/\/\/&/' cfg
 # // [l4d2_ultra_witch.smx]
 # confogl_addcvar z_witch_damage 100
 sed -i '/confogl_addcvar vs_tank_rock_damage 24/a \\\n// [l4d2_ultra_witch.smx]\nconfogl_addcvar z_witch_damage 100' cfg/cfgogl/zonemodrv/shared_settings.cfg
-
-# 在 confogl_addcvar gfc_rock_rage_override 1 下边一行添加 confogl_addcvar gfc_rock_rage_override 1
-sed -i '/confogl_addcvar gfc_rock_rage_override 1/a confogl_addcvar gfc_rock_rage_override 1' cfg/cfgogl/zonemodrv/shared_settings.cfg
 
 # 在 confogl_addcvar l4d2_infected_ff_allow_tank 1 下边一行添加 confogl_addcvar l4d2_infected_ff_block_witch 1
 sed -i '/confogl_addcvar l4d2_infected_ff_allow_tank 1/a confogl_addcvar l4d2_infected_ff_block_witch 1' cfg/cfgogl/zonemodrv/shared_settings.cfg
