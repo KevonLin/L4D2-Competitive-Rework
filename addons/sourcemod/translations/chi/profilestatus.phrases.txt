@@ -1,0 +1,332 @@
+"Phrases"
+{
+	"Not Enough Hours"
+	{
+		"#format" "{1:i},{2:i}"
+		
+		"chi" "你的游戏时间为{1}小时,你至少需要{2}小时才能加入该服务器!"
+		"en" "You have {1} out of the {2} hours required to join this server!"
+		"es" "¡Tienes {1} de las {2} horas necesarias para unirte a este servidor!"
+		"pt" "Você tem {1} das {2} horas necessárias pra se unir a este servidor!"
+		"pl" "Masz tylko {1} z {2} wymaganych godzin, żeby dołączyć do serwera!"
+	}
+	"Invisible Hours"
+	{
+		"chi" "无法获取你的游戏时间!你必须公开你的个人资料!"
+		"en" "Error while retrieving your hours! Make sure they're public"
+		"es" "¡Error al intentar obtener tus horas de juego! Asegúrate de que sean públicas" 
+		"pt" "Erro ao tentar obter suas horas de jogo! Verifique que elas sejam públicas"
+		"pl" "Błąd przy pozyskiwaniu informacji na temat twoich godzin! Upewnij się, że są publiczne!"
+	}
+	"Invalid STEAMID"
+	{
+		"chi" "{green}[PS]{default} 非法SteamID!"
+		"en" "{green}[PS]{default} Invalid STEAMID!"
+		"es" "{green}[PS]{default} ¡STEAMID inválido!"
+		"pt" "{green}[PS]{default} STEAMID inválido!"
+		"pl" "{green}[PS]{default} Niepoprawne STEAMID!"
+	}
+	"Hour Check Not Whitelisted"
+	{
+		"#format" "{1:s}"
+		
+		"chi" "{green}[PS]{default} Steam ID {gray}{1} {red}不在 {default}小时限制白名单!"
+		"en" "{green}[PS]{default} Steam ID {gray}{1} {default}is {red}not {default}hour whitelisted!"
+		"es" "{green}[PS]{default} El Steam ID {gray}{1} {red}no está {default}en la whitelist de horas."
+		"pt" "{green}[PS]{default} A Steam ID {gray}{1} {red}não está {default}na whitelist das horas!"
+		"pl" "{green}[PS]{default} Steam ID {gray}{1} {red}nie jest {default}na hour whitelist!"
+	}
+	"Ban Check Not Whitelisted"
+	{
+		"#format" "{1:s}"
+		
+		"chi" "{green}[PS]{default} Steam ID {gray}{1} {red}不在 {default}封禁白名单!"
+		"en" "{green}[PS]{default} Steam ID {gray}{1} {default}is {red}not {default}ban whitelisted!"
+		"es" "{green}[PS]{default} El Steam ID {gray}{1} {red}no está {default}en la whitelist de bans."
+		"pt" "{green}[PS]{default} A Steam ID {gray}{1} {red}não está {default}na whitelist dos bans!"
+		"pl" "{green}[PS]{default} Steam ID {gray}{1} {red}nie jest {default}na ban whitelist!"
+	}
+	"Level Check Not Whitelisted"
+	{
+		"#format" "{1:s}"
+		
+		"chi" "{green}[PS]{default} Steam ID {gray}{1} {red}不在 {default}Steam等级限制白名单!"
+		"en" "{green}[PS]{default} Steam ID {gray}{1} {default}is {red}not {default}level whitelisted!"
+		"es" "{green}[PS]{default} El Steam ID {gray}{1} {red}no está {default}en la whitelist de niveles."
+		"pt" "{green}[PS]{default} A Steam ID {gray}{1} {red}não está {default}na whitelist dos níveis!"
+		"pl" "{green}[PS]{default} Steam ID {gray}{1} {red}nie jest {default}na level whitelist!"
+	}	
+	"Hour Check Whitelisted"
+	{
+		"#format" "{1:s}"
+		
+		"chi" "{green}[PS]{default} Steam ID {gray}{1} {green}在 {default}小时限制白名单!"
+		"en" "{green}[PS]{default} Steam ID {gray}{1} {green}is {default}hour whitelisted!"
+		"es" "{green}[PS]{default} El Steam ID {gray}{1} {green}está {default}en la whitelist de horas."
+		"pt" "{green}[PS]{default} A Steam ID {gray}{1} {green}está {default}na whitelist das horas!"
+		"pl" "{green}[PS]{default} Steam ID {gray}{1} {green}jest {default}na hour whitelist!"
+	}
+	"Ban Check Whitelisted"
+	{
+		"#format" "{1:s}"
+		
+		"chi" "{green}[PS]{default} Steam ID {gray}{1} {green}在 {default}封禁白名单!"
+		"en" "{green}[PS]{default} Steam ID {gray}{1} {green}is {default}ban whitelisted!"
+		"es" "{green}[PS]{default} El Steam ID {gray}{1} {green}está {default}en la whitelist de bans."
+		"pt" "{green}[PS]{default} A Steam ID {gray}{1} {green}está {default}na whitelist dos bans!"
+		"pl" "{green}[PS]{default} Steam ID {gray}{1} {green}jest {default}ban whitelist!"
+	}
+	"Level Check Whitelisted"
+	{
+		"#format" "{1:s}"
+		
+		"chi" "{green}[PS]{default} Steam ID {gray}{1} {green}在 {default}Steam等级限制白名单!"
+		"en" "{green}[PS]{default} Steam ID {gray}{1} {green}is {default}level whitelisted!"
+		"es" "{green}[PS]{default} El Steam ID {gray}{1} {green}está {default}en la whitelist de niveles."
+		"pt" "{green}[PS]{default} A Steam ID {gray}{1} {green}está {default}na whitelist dos níveis!"
+		"pl" "{green}[PS]{default} Steam ID {gray}{1} {green}jest {default}na level whitelist!"
+	}
+	"Successfully Hour Removed"
+	{
+		"#format" "{1:s}"
+		
+		"chi" "{green}[PS]{default} 成功从小时限制白名单删除 {gray}{1}!"
+		"en" "{green}[PS]{default} Successfully removed {gray}{1} {default}from the hours whitelist!"
+		"es" "{green}[PS]{default} ¡Removida ID {gray}{1} {default}de la whitelist de horas con éxito!"
+		"pt" "{green}[PS]{default} Removida ID {gray}{1} {default}da whitelist das horas com sucesso!"
+		"pl" "{green}[PS]{default} Pomyślnie usunięto {gray}{1} {default}z hours whitelist!"
+	}
+	"Successfully Ban Removed"
+	{
+		"#format" "{1:s}"
+		
+		"chi" "{green}[PS]{default} 成功从封禁白名单删除 {gray}{1}!"
+		"en" "{green}[PS]{default} Successfully removed {gray}{1} {default}from the ban whitelist!"
+		"es" "{green}[PS]{default} ¡Removida ID {gray}{1} {default}de la whitelist de horas con éxito!"
+		"pt" "{green}[PS]{default} Removida ID {gray}{1} {default}da whitelist das horas com sucesso!"
+		"pl" "{green}[PS]{default} Pomyślnie usunięto {gray}{1} {default}z hours whitelist!"
+	}
+	"Successfully Level Removed"
+	{
+		"#format" "{1:s}"
+		
+		"chi" "{green}[PS]{default} 成功从Steam等级限制白名单删除 {gray}{1}!"
+		"en" "{green}[PS]{default} Successfully removed {gray}{1} {default}from the level whitelist!"
+		"es" "{green}[PS]{default} ¡Removida ID {gray}{1} {default}de la whitelist de niveles con éxito!"
+		"pt" "{green}[PS]{default} Removida ID {gray}{1} {default}da whitelist dos níveis com sucesso!"
+		"pl" "{green}[PS]{default} Pomyślnie usunięto {gray}{1} {default}z hours level whitelist!"
+	}
+	"Nothing Hour Removed"
+	{
+		"#format" "{1:s}"
+		
+		"chi" "{green}[PS]{default} ID {gray}{1} {default}不在小时限制白名单!"
+		"en" "{green}[PS]{default} ID {gray}{1} {default}was not in hours whitelist!"
+		"es" "{green}[PS]{default} ¡La ID {gray}{1} {default}no estaba en la whitelist de horas!"
+		"pt" "{green}[PS]{default} ID {gray}{1} {default}não estava na whitelist das horas!"
+		"pl" "{green}[PS]{default} ID {gray}{1} {default}nie jest na hours whitelist!"
+	}
+	"Nothing Ban Removed"
+	{
+		"#format" "{1:s}"
+		
+		"chi" "{green}[PS]{default} ID {gray}{1} {default}不在封禁白名单!"
+		"en" "{green}[PS]{default} ID {gray}{1} {default}was not in bans whitelist!"
+		"es" "{green}[PS]{default} ¡La ID {gray}{1} {default}no estaba en la whitelist de bans!"
+		"pt" "{green}[PS]{default} ID {gray}{1} {default}não estava na whitelist dos bans!"
+		"pl" "{green}[PS]{default} ID {gray}{1} {default}nie jest na bans whitelist!"
+	}
+	"Nothing Level Removed"
+	{
+		"#format" "{1:s}"
+		
+		"chi" "{green}[PS]{default} ID {gray}{1} {default}不在Steam等级限制白名单!"
+		"en" "{green}[PS]{default} ID {gray}{1} {default}was not in level whitelist!"
+		"es" "{green}[PS]{default} ¡La ID {gray}{1} {default}no estaba en la whitelist de niveles!"
+		"pt" "{green}[PS]{default} ID {gray}{1} {default}não estava na whitelist dos níveis!"
+		"pl" "{green}[PS]{default} ID {gray}{1} {default}nie jest na level whitelist!"
+	}
+	"Successfully Hour Added"
+	{
+		"#format" "{1:s}"
+		
+		"chi" "{green}[PS]{default} 成功将 {gray}{1} {default}加入小时限制白名单!"
+		"en" "{green}[PS]{default} Successfully added {gray}{1} {default}to the hours whitelist!"
+		"es" "{green}[PS]{default} ¡Agregada la ID {gray}{1} {default}a la whitelist de horas!"
+		"pt" "{green}[PS]{default} Adicionada a ID {gray}{1} {default}à whitelist das horas com sucesso!"
+		"pl" "{green}[PS]{default} Pomyślnie dodano {gray}{1} {default}do hours whitelist!"
+	}
+	"Successfully Ban Added"
+	{
+		"#format" "{1:s}"
+		
+		"chi" "{green}[PS]{default} 成功将 {gray}{1} {default}加入封禁白名单!"
+		"en" "{green}[PS]{default} Successfully added {gray}{1} {default}to the bans whitelist!"
+		"es" "{green}[PS]{default} ¡Agregada la ID {gray}{1} {default}a la whitelist de bans!"
+		"pt" "{green}[PS]{default} Adicionada a ID {gray}{1} {default}à whitelist dos bans com sucesso!"
+		"pl" "{green}[PS]{default} Pomyślnie dodano {gray}{1} {default}do bans whitelist!"
+	}
+	"Successfully Level Added"
+	{
+		"#format" "{1:s}"
+		
+		"chi" "{green}[PS]{default} 成功将 {gray}{1} {default}加入Steam等级限制白名单!"
+		"en" "{green}[PS]{default} Successfully added {gray}{1} {default}to the level whitelist!"
+		"es" "{green}[PS]{default} ¡Agregada la ID {gray}{1} {default}a la whitelist de niveles!"
+		"pt" "{green}[PS]{default} Adicionada a ID {gray}{1} {default}à whitelist dos níveis com sucesso!"
+		"pl" "{green}[PS]{default} Pomyślnie dodano {gray}{1} {default}do level whitelist!"
+	}	
+	"Nothing Hour Added"
+	{
+		
+		"#format" "{1:s}"
+		
+		"chi" "{green}[PS]{default} ID {gray}{1} {default}已经存在小时限制白名单"
+		"en" "{green}[PS]{default} ID {gray}{1} {default}was already in hours whitelist!"
+		"es" "{green}[PS]{default} ¡La ID {gray}{1} {default}ya estaba en la whitelist de horas!"
+		"pt" "{green}[PS]{default} ID {gray}{1} {default}já estava na whitelist das horas!"
+		"pl" "{green}[PS]{default} ID {gray}{1} {default}jest już na hours whitelist!"
+	}
+	"Nothing Ban Added"
+	{
+		"#format" "{1:s}"
+		
+		"chi" "{green}[PS]{default} ID {gray}{1} {default}已经存在封禁白名单"
+		"en" "{green}[PS]{default} ID {gray}{1} {default}was already in bans whitelist!"
+		"es" "{green}[PS]{default} ¡La ID {gray}{1} {default}ya estaba en la whitelist de bans!"
+		"pt" "{green}[PS]{default} ID {gray}{1} {default}já estava na whitelist dos bans!"
+		"pl" "{green}[PS]{default} ID {gray}{1} {default}jest już na bans whitelist!"
+	}
+	"Nothing Level Added"
+	{
+		"#format" "{1:s}"
+		
+		"chi" "{green}[PS]{default} ID {gray}{1} {default}已经存在Steam等级限制白名单"
+		"en" "{green}[PS]{default} ID {gray}{1} {default}was already in level whitelist!"
+		"es" "{green}[PS]{default} ¡La ID {gray}{1} {default}ya estaba en la whitelist de niveles!"
+		"pt" "{green}[PS]{default} ID {gray}{1} {default}já estava na whitelist dos níveis!"
+		"pl" "{green}[PS]{default} ID {gray}{1} {default}jest już na level whitelist!"
+	}
+	"Command Generic Usage"
+	{
+		"chi" "{green}[PS]{default} 用法: sm_ps <hours|bans> <add|remove|check> <STEAMID64>"
+		"en" "{green}[PS]{default} Usage: sm_ps <hours|bans> <add|remove|check> <STEAMID64>"
+		"es" "{green}[PS]{default} Uso: sm_ps <add|remove|check> <STEAMID64>"
+		"pt" "{green}[PS]{default} Uso: sm_ps <add|remove|check> <STEAMID64>"
+		"pl" "{green}[PS]{default} Usage: sm_ps <hours|bans> <add|remove|check> <STEAMID64>"
+	}
+	"VAC Kicked"
+	{
+		"chi" "此服务器禁止VAC封禁的玩家加入."
+		"en" "This server disallows VAC Banned players."
+		"es" "Este servidor prohíbe jugadores con VAC Bans."
+		"pt" "Esse servidor proíbe jogadores com VAC Ban."
+		"pl" "Ten serwer nie dopuszcza graczy z blokadą VAC."
+	}
+	"VAC Kicked Days"
+	{
+		"format" "{1:i}"
+		
+		"chi" "你至少距离上次VAC封禁 {1} 天才允许加入此服务器."
+		"en" "This server disallows players with less than {1} days since their last VAC Ban."
+		"es" "Este servidor prohíbe jugadores con menos de {1} días desde su último VAC Ban."
+		"pt" "Esse servidor proíbe jogadores com menos de {1} dias desde o seu último VAC Ban."
+		"pl" "Ten serwer nie dopuszcza graczy, którzy mają mniej niż {1} dni od ostatniej blokady VAC."
+	}
+	"VAC Kicked Amount"
+	{
+		"format" "{1:i}"
+		
+		"chi" "此服务器禁止VAC封禁次数超过 {1} 次的玩家加入."
+		"en" "This server disallows players with more than {1} VAC Bans."
+		"es" "Este servidor prohíbe jugadores con más de {1} VAC Bans."
+		"pt" "Esse servidor proíbe jogadores com mais de {1} VAC Bans."
+		"pl" "Ten serwer nie dopuszcza graczy, którzy mają więcej niż {1} blokad VAC."
+	}
+	"Community Ban Kicked"
+	{
+		"chi" "此服务器禁止被社区封禁的玩家加入."
+		"en" "This server disallows Steam Community Banned players."
+		"es" "Este servidor prohíbe jugadores baneados de la Comunidad de Steam."
+		"pt" "Esse servidor proíbe jogadores banidos da Comunidade de Steam."
+		"pl" "Ten serwer nie dopuszcza graczy z Steam Community Ban."
+	}
+	"Game Bans Exceeded"
+	{
+		"format" "{1:i}"
+		
+		"chi" "此服务器禁止被游戏封禁超过 {1} 次的玩家加入."
+		"en" "This server disallows players with more than {1} Game Bans."
+		"es" "Este servidor prohíbe jugadores con más de {1} Game Bans."
+		"pt" "Esse servidor proíbe jogadores com mais de {1} Game Bans."
+		"pl" "Ten serwer nie dopuszcza graczy, którzy mają więcej niż {1} Game Bans."
+	}
+	"Economy Ban Kicked"
+	{
+		"chi" "此服务器禁止贸易禁令的玩家加入."
+		"en" "This server disallows Trade Banned players."
+		"es" "Este servidor prohíbe jugadores con Trade Ban."
+		"pt" "Esse servidor proíbe jogadores com Trade Ban."
+		"pl" "Ten serwer nie dopuszcza graczy z Trade Banem."
+	}
+	"Economy Ban/Prob Kicked"
+	{
+		"chi" "此服务器不允许处于贸易禁令和缓刑状态的玩家."
+		"en" "This server disallows players with Trade Ban and Probation states."
+		"es" "Este servidor prohíbe jugadores en situación de Trade Ban o Probation."
+		"pt" "Esse servidor proíbe jogadores em situação de Trade Ban ou Probation."
+		"pl" "Ten serwer nie dopuszcza graczy z Trade Banem oraz Probation states."
+	}
+	"Invisible Level"
+	{
+		"chi" "在查询Steam资料时出错!确保你的个人资料是公开的."
+		"en" "Error while retrieving your Steam level! Make sure your profile is public."
+		"es" "¡Error al obtener tu nivel de Steam! Asegúrate de que tu perfil sea público."
+		"pt" "Erro ao obter o seu nível de Steam! Verifique que o seu perfil seja público."
+		"pl" "Bląd przy pozyskiwaniu twojego lvl steam! Upewnij się, że twój profil jest publiczny."
+	}
+	"Low Level"
+	{
+		"#format" "{1:i},{2:i}"
+		
+		"chi" "你的Steam等级为 {1}. 你必须达到 {2} 级以上才能加入该服务器"
+		"en" "Your Steam level is {1}. Only levels {2} and above are allowed in this server."
+		"es" "Tu nivel de Steam es {1}. Sólo niveles de {2} para arriba son permitidos en este servidor."
+		"pt" "O seu nível de Steam é {1}. Somente níveis {2} para acima são aceitos nesse servidor."
+		"pl" "Masz {1} level steam. Jedynie levele {2} i powyżej mają dostęp do tego serwera."
+	}
+	"High Level"
+	{
+		"#format" "{1:i},{2:i}"
+		
+		"chi" "你的Steam等级为 {1}. 你必须在 {2} 级以下才能加入该服务器"
+		"en" "Your Steam level is {1}. Only levels {2} and below are allowed in this server."
+		"es" "Tu nivel de Steam es {1}. Sólo niveles de {2} para abajo son permitidos en este servidor."
+		"pt" "O seu nível de Steam é {1}. Somente níveis {2} para abaixo são aceitos nesse servidor."
+		"pl" "Masz {1} level steam. Jedynie levele {2} i poniżej mają dostęp do tego serwera."
+	}
+	"No Private Profile"
+	{
+		"chi" "此服务器禁止私有个人资料"
+		"en" "Private profiles aren't allowed here!"
+		"es" "¡No se aceptan perfiles privados en este servidor!"
+		"pt" "Neste servidor os perfis privados não são aceitos!"
+		"pl" "Prywatne profile nie są dozwolone tutaj!"
+	}
+	"Select a Table"
+	{
+		"chi" "选择一张表"
+		"en" "Select a table"
+		"es" "Elige una tabla"
+		"pt" "Escolha uma tabela"
+		"pl" "Wybierz tabelę"
+	}
+	"No Results"
+	{
+		"chi" "{green}[PS]{default} 该表为空!"
+		"en" "{green}[PS]{default} This table is empty!"
+		"es" "{green}[PS]{default} ¡Esta tabla está vacía!"
+		"pt" "{green}[PS]{default} Esta tabela está vazia!"
+		"pl" "{green}[PS]{default} Ta tabela jest pusta!"
+	}
+}
