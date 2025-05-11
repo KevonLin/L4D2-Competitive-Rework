@@ -1,0 +1,587 @@
+L 05/11/2025 - 20:48:29: SourceMod log file session started (file "/home/steam/l4d2/left4dead2/addons/sourcemod/logs/L20250511.log") (Version "1.12.0.7195")
+L 05/11/2025 - 20:48:29: [GEOIP] GeoIP2 database loaded: GeoLite2-City (2019-12-17 20:01:26 UTC) (/home/steam/l4d2/left4dead2/addons/sourcemod/configs/geoip/GeoLite2-City.mmdb)
+L 05/11/2025 - 20:48:29: [GEOIP] GeoIP2 supported languages: de en es fr ja pt-BR ru zh-CN
+L 05/11/2025 - 20:48:29: [GEOIP] Your database is older than 90 days. You should consider downloading a newer version from e.g. https://dev.maxmind.com/geoip/geolite2-free-geolocation-data
+L 05/11/2025 - 20:48:30: [fixes/firebulletsfix.smx] Found offset for Weapon_ShootPosition 286
+L 05/11/2025 - 20:48:30: [hostname.smx] [Dynamic Hostname] Hostname updated to: [Tes]8v8全牛进化版
+L 05/11/2025 - 20:48:33: [hostname.smx] [Dynamic Hostname] Hostname updated to: [Tes]8v8全牛进化版
+L 05/11/2025 - 20:48:33: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "confogl_match_execcfg_plugins") (value "generalfixes.cfg;confogl_plugins.cfg;sharedplugins.cfg")
+L 05/11/2025 - 20:48:33: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "l4d2_addons_eclipse") (value "0")
+L 05/11/2025 - 20:48:33: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_allow_wait_command") (value "0")
+L 05/11/2025 - 20:48:33: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minrate") (value "100000")
+L 05/11/2025 - 20:48:33: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxrate") (value "100000")
+L 05/11/2025 - 20:48:33: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minupdaterate") (value "100")
+L 05/11/2025 - 20:48:33: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxupdaterate") (value "100")
+L 05/11/2025 - 20:48:33: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_mincmdrate") (value "100")
+L 05/11/2025 - 20:48:33: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxcmdrate") (value "100")
+L 05/11/2025 - 20:48:33: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_min_interp_ratio") (value "-1")
+L 05/11/2025 - 20:48:33: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_max_interp_ratio") (value "2")
+L 05/11/2025 - 20:48:33: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "nb_update_frequency") (value "0.014")
+L 05/11/2025 - 20:48:33: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "net_splitpacket_maxrate") (value "50000")
+L 05/11/2025 - 20:48:33: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "net_maxcleartime") (value "0.0001")
+L 05/11/2025 - 20:48:33: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "fps_max") (value "0")
+L 05/11/2025 - 20:48:33: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "tick_door_speed") (value "1.3")
+L 05/11/2025 - 20:48:33: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mv_maxplayers") (value "30")
+L 05/11/2025 - 20:48:33: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mp_autoteambalance") (value "0")
+L 05/11/2025 - 20:48:33: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_unlag_fixstuck") (value "1")
+L 05/11/2025 - 20:48:33: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "z_brawl_chance") (value "0")
+L 05/11/2025 - 20:48:33: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxunlag") (value "1")
+L 05/11/2025 - 20:48:33: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_forcepreload") (value "1")
+L 05/11/2025 - 20:48:33: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_predict") (value "1")
+L 05/11/2025 - 20:48:33: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_cmdrate_difference") (value "0")
+L 05/11/2025 - 20:48:33: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec_global") (value "10")
+L 05/11/2025 - 20:48:33: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec") (value "3")
+L 05/11/2025 - 20:48:33: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_window") (value "10")
+L 05/11/2025 - 20:48:33: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_player_stuck_tolerance") (value "5")
+L 05/11/2025 - 20:48:33: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_stats") (value "0")
+L 05/11/2025 - 20:48:33: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_clockcorrection_msecs") (value "25")
+L 05/11/2025 - 20:48:33: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "decalfrequency") (value "0.1")
+L 05/11/2025 - 20:48:34: [fixes/firebulletsfix.smx] Found offset for Weapon_ShootPosition 286
+L 05/11/2025 - 20:48:40: -------- Mapchange to c2m1_highway --------
+L 05/11/2025 - 20:48:42: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "confogl_match_execcfg_plugins") (value "generalfixes.cfg;confogl_plugins.cfg;sharedplugins.cfg")
+L 05/11/2025 - 20:48:42: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "l4d2_addons_eclipse") (value "0")
+L 05/11/2025 - 20:48:42: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_allow_wait_command") (value "0")
+L 05/11/2025 - 20:48:42: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minrate") (value "100000")
+L 05/11/2025 - 20:48:42: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxrate") (value "100000")
+L 05/11/2025 - 20:48:42: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minupdaterate") (value "100")
+L 05/11/2025 - 20:48:42: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxupdaterate") (value "100")
+L 05/11/2025 - 20:48:42: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_mincmdrate") (value "100")
+L 05/11/2025 - 20:48:42: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxcmdrate") (value "100")
+L 05/11/2025 - 20:48:42: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_min_interp_ratio") (value "-1")
+L 05/11/2025 - 20:48:42: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_max_interp_ratio") (value "2")
+L 05/11/2025 - 20:48:42: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "nb_update_frequency") (value "0.014")
+L 05/11/2025 - 20:48:42: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "net_splitpacket_maxrate") (value "50000")
+L 05/11/2025 - 20:48:42: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "net_maxcleartime") (value "0.0001")
+L 05/11/2025 - 20:48:42: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "fps_max") (value "0")
+L 05/11/2025 - 20:48:42: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "tick_door_speed") (value "1.3")
+L 05/11/2025 - 20:48:42: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mv_maxplayers") (value "30")
+L 05/11/2025 - 20:48:42: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mp_autoteambalance") (value "0")
+L 05/11/2025 - 20:48:42: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_unlag_fixstuck") (value "1")
+L 05/11/2025 - 20:48:42: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "z_brawl_chance") (value "0")
+L 05/11/2025 - 20:48:42: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxunlag") (value "1")
+L 05/11/2025 - 20:48:42: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_forcepreload") (value "1")
+L 05/11/2025 - 20:48:42: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_predict") (value "1")
+L 05/11/2025 - 20:48:42: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_cmdrate_difference") (value "0")
+L 05/11/2025 - 20:48:42: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec_global") (value "10")
+L 05/11/2025 - 20:48:42: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec") (value "3")
+L 05/11/2025 - 20:48:42: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_window") (value "10")
+L 05/11/2025 - 20:48:42: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_player_stuck_tolerance") (value "5")
+L 05/11/2025 - 20:48:42: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_stats") (value "0")
+L 05/11/2025 - 20:48:42: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_clockcorrection_msecs") (value "25")
+L 05/11/2025 - 20:48:42: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "decalfrequency") (value "0.1")
+L 05/11/2025 - 20:48:43: [optional/l4d2_saferoom_item_remove.smx] Removed 0 saferoom item(s) (start: 0; end: 0).
+L 05/11/2025 - 20:50:52: [funcommands.smx] "林<2><STEAM_1:1:541917832><>" toggled noclip on "林<2><STEAM_1:1:541917832><>"
+L 05/11/2025 - 20:50:54: [funcommands.smx] "林<2><STEAM_1:1:541917832><>" toggled noclip on "林<2><STEAM_1:1:541917832><>"
+L 05/11/2025 - 20:50:59: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "Bill<15><BOT><>"
+L 05/11/2025 - 20:51:02: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "Bill<15><BOT><>"
+L 05/11/2025 - 20:51:03: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "Bill<15><BOT><>"
+L 05/11/2025 - 20:52:02: [fixes/firebulletsfix.smx] Found offset for Weapon_ShootPosition 286
+L 05/11/2025 - 20:52:02: [hostname.smx] [Dynamic Hostname] Hostname updated to: [Tes]8v8全牛进化版
+L 05/11/2025 - 20:52:02: [confoglcompmod.smx] [PasswordSystem] Set password on 林, password 
+L 05/11/2025 - 20:52:03: [hostname.smx] [Dynamic Hostname] Hostname updated to: [Tes]8v8全牛进化版
+L 05/11/2025 - 20:52:05: [fixes/firebulletsfix.smx] Found offset for Weapon_ShootPosition 286
+L 05/11/2025 - 20:52:05: [confoglcompmod.smx] [PasswordSystem] Set password on 林, password 
+L 05/11/2025 - 20:52:10: -------- Mapchange to c2m1_highway --------
+L 05/11/2025 - 20:52:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "confogl_match_execcfg_plugins") (value "generalfixes.cfg;confogl_plugins.cfg;sharedplugins.cfg")
+L 05/11/2025 - 20:52:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "l4d2_addons_eclipse") (value "0")
+L 05/11/2025 - 20:52:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_allow_wait_command") (value "0")
+L 05/11/2025 - 20:52:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minrate") (value "100000")
+L 05/11/2025 - 20:52:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxrate") (value "100000")
+L 05/11/2025 - 20:52:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minupdaterate") (value "100")
+L 05/11/2025 - 20:52:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxupdaterate") (value "100")
+L 05/11/2025 - 20:52:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_mincmdrate") (value "100")
+L 05/11/2025 - 20:52:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxcmdrate") (value "100")
+L 05/11/2025 - 20:52:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_min_interp_ratio") (value "-1")
+L 05/11/2025 - 20:52:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_max_interp_ratio") (value "2")
+L 05/11/2025 - 20:52:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "nb_update_frequency") (value "0.014")
+L 05/11/2025 - 20:52:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "net_splitpacket_maxrate") (value "50000")
+L 05/11/2025 - 20:52:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "net_maxcleartime") (value "0.0001")
+L 05/11/2025 - 20:52:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "fps_max") (value "0")
+L 05/11/2025 - 20:52:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "tick_door_speed") (value "1.3")
+L 05/11/2025 - 20:52:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mv_maxplayers") (value "30")
+L 05/11/2025 - 20:52:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mp_autoteambalance") (value "0")
+L 05/11/2025 - 20:52:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_unlag_fixstuck") (value "1")
+L 05/11/2025 - 20:52:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "z_brawl_chance") (value "0")
+L 05/11/2025 - 20:52:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxunlag") (value "1")
+L 05/11/2025 - 20:52:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_forcepreload") (value "1")
+L 05/11/2025 - 20:52:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_predict") (value "1")
+L 05/11/2025 - 20:52:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_cmdrate_difference") (value "0")
+L 05/11/2025 - 20:52:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec_global") (value "10")
+L 05/11/2025 - 20:52:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec") (value "3")
+L 05/11/2025 - 20:52:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_window") (value "10")
+L 05/11/2025 - 20:52:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_player_stuck_tolerance") (value "5")
+L 05/11/2025 - 20:52:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_stats") (value "0")
+L 05/11/2025 - 20:52:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_clockcorrection_msecs") (value "25")
+L 05/11/2025 - 20:52:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "decalfrequency") (value "0.1")
+L 05/11/2025 - 20:52:14: [optional/l4d2_saferoom_item_remove.smx] Removed 0 saferoom item(s) (start: 0; end: 0).
+L 05/11/2025 - 20:52:48: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "Bill<36><BOT><>"
+L 05/11/2025 - 20:52:49: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "Bill<36><BOT><>"
+L 05/11/2025 - 20:52:50: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "Bill<36><BOT><>"
+L 05/11/2025 - 20:52:51: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "林<2><STEAM_1:1:541917832><>"
+L 05/11/2025 - 20:52:52: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "林<2><STEAM_1:1:541917832><>"
+L 05/11/2025 - 20:52:52: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "Bill<36><BOT><>"
+L 05/11/2025 - 20:52:53: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "林<2><STEAM_1:1:541917832><>"
+L 05/11/2025 - 20:55:10: [fixes/firebulletsfix.smx] Found offset for Weapon_ShootPosition 286
+L 05/11/2025 - 20:55:10: [hostname.smx] [Dynamic Hostname] Hostname updated to: [Tes]8v8全牛进化版
+L 05/11/2025 - 20:55:10: [confoglcompmod.smx] [PasswordSystem] Set password on 林, password 
+L 05/11/2025 - 20:55:10: [hostname.smx] [Dynamic Hostname] Hostname updated to: [Tes]8v8全牛进化版
+L 05/11/2025 - 20:55:12: [fixes/firebulletsfix.smx] Found offset for Weapon_ShootPosition 286
+L 05/11/2025 - 20:55:12: [confoglcompmod.smx] [PasswordSystem] Set password on 林, password 
+L 05/11/2025 - 20:55:18: -------- Mapchange to c2m1_highway --------
+L 05/11/2025 - 20:55:19: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "confogl_match_execcfg_plugins") (value "generalfixes.cfg;confogl_plugins.cfg;sharedplugins.cfg")
+L 05/11/2025 - 20:55:19: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "l4d2_addons_eclipse") (value "0")
+L 05/11/2025 - 20:55:19: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_allow_wait_command") (value "0")
+L 05/11/2025 - 20:55:19: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minrate") (value "100000")
+L 05/11/2025 - 20:55:19: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxrate") (value "100000")
+L 05/11/2025 - 20:55:19: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minupdaterate") (value "100")
+L 05/11/2025 - 20:55:19: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxupdaterate") (value "100")
+L 05/11/2025 - 20:55:19: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_mincmdrate") (value "100")
+L 05/11/2025 - 20:55:19: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxcmdrate") (value "100")
+L 05/11/2025 - 20:55:19: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_min_interp_ratio") (value "-1")
+L 05/11/2025 - 20:55:19: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_max_interp_ratio") (value "2")
+L 05/11/2025 - 20:55:19: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "nb_update_frequency") (value "0.014")
+L 05/11/2025 - 20:55:19: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "net_splitpacket_maxrate") (value "50000")
+L 05/11/2025 - 20:55:19: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "net_maxcleartime") (value "0.0001")
+L 05/11/2025 - 20:55:19: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "fps_max") (value "0")
+L 05/11/2025 - 20:55:19: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "tick_door_speed") (value "1.3")
+L 05/11/2025 - 20:55:19: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mv_maxplayers") (value "30")
+L 05/11/2025 - 20:55:19: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mp_autoteambalance") (value "0")
+L 05/11/2025 - 20:55:19: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_unlag_fixstuck") (value "1")
+L 05/11/2025 - 20:55:19: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "z_brawl_chance") (value "0")
+L 05/11/2025 - 20:55:19: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxunlag") (value "1")
+L 05/11/2025 - 20:55:19: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_forcepreload") (value "1")
+L 05/11/2025 - 20:55:19: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_predict") (value "1")
+L 05/11/2025 - 20:55:19: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_cmdrate_difference") (value "0")
+L 05/11/2025 - 20:55:19: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec_global") (value "10")
+L 05/11/2025 - 20:55:19: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec") (value "3")
+L 05/11/2025 - 20:55:19: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_window") (value "10")
+L 05/11/2025 - 20:55:19: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_player_stuck_tolerance") (value "5")
+L 05/11/2025 - 20:55:19: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_stats") (value "0")
+L 05/11/2025 - 20:55:19: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_clockcorrection_msecs") (value "25")
+L 05/11/2025 - 20:55:19: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "decalfrequency") (value "0.1")
+L 05/11/2025 - 20:55:21: [optional/l4d2_saferoom_item_remove.smx] Removed 0 saferoom item(s) (start: 0; end: 0).
+L 05/11/2025 - 20:55:44: [funcommands.smx] "林<2><STEAM_1:1:541917832><>" toggled noclip on "林<2><STEAM_1:1:541917832><>"
+L 05/11/2025 - 20:55:48: [funcommands.smx] "林<2><STEAM_1:1:541917832><>" toggled noclip on "Rochelle<54><BOT><>"
+L 05/11/2025 - 20:55:49: [funcommands.smx] "林<2><STEAM_1:1:541917832><>" toggled noclip on "Rochelle<54><BOT><>"
+L 05/11/2025 - 20:55:52: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "Rochelle<54><BOT><>"
+L 05/11/2025 - 20:55:53: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "Rochelle<54><BOT><>"
+L 05/11/2025 - 20:55:54: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "Rochelle<54><BOT><>"
+L 05/11/2025 - 20:56:51: [fixes/firebulletsfix.smx] Found offset for Weapon_ShootPosition 286
+L 05/11/2025 - 20:56:52: [hostname.smx] [Dynamic Hostname] Hostname updated to: [Tes]8v8全牛进化版
+L 05/11/2025 - 20:56:52: [confoglcompmod.smx] [PasswordSystem] Set password on 林, password 
+L 05/11/2025 - 20:56:52: [hostname.smx] [Dynamic Hostname] Hostname updated to: [Tes]8v8全牛进化版
+L 05/11/2025 - 20:56:53: [fixes/firebulletsfix.smx] Found offset for Weapon_ShootPosition 286
+L 05/11/2025 - 20:56:54: [confoglcompmod.smx] [PasswordSystem] Set password on 林, password 
+L 05/11/2025 - 20:56:59: -------- Mapchange to c2m1_highway --------
+L 05/11/2025 - 20:57:01: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "confogl_match_execcfg_plugins") (value "generalfixes.cfg;confogl_plugins.cfg;sharedplugins.cfg")
+L 05/11/2025 - 20:57:01: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "l4d2_addons_eclipse") (value "0")
+L 05/11/2025 - 20:57:01: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_allow_wait_command") (value "0")
+L 05/11/2025 - 20:57:01: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minrate") (value "100000")
+L 05/11/2025 - 20:57:01: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxrate") (value "100000")
+L 05/11/2025 - 20:57:01: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minupdaterate") (value "100")
+L 05/11/2025 - 20:57:01: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxupdaterate") (value "100")
+L 05/11/2025 - 20:57:01: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_mincmdrate") (value "100")
+L 05/11/2025 - 20:57:01: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxcmdrate") (value "100")
+L 05/11/2025 - 20:57:01: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_min_interp_ratio") (value "-1")
+L 05/11/2025 - 20:57:01: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_max_interp_ratio") (value "2")
+L 05/11/2025 - 20:57:01: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "nb_update_frequency") (value "0.014")
+L 05/11/2025 - 20:57:01: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "net_splitpacket_maxrate") (value "50000")
+L 05/11/2025 - 20:57:01: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "net_maxcleartime") (value "0.0001")
+L 05/11/2025 - 20:57:01: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "fps_max") (value "0")
+L 05/11/2025 - 20:57:01: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "tick_door_speed") (value "1.3")
+L 05/11/2025 - 20:57:01: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mv_maxplayers") (value "30")
+L 05/11/2025 - 20:57:01: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mp_autoteambalance") (value "0")
+L 05/11/2025 - 20:57:01: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_unlag_fixstuck") (value "1")
+L 05/11/2025 - 20:57:01: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "z_brawl_chance") (value "0")
+L 05/11/2025 - 20:57:01: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxunlag") (value "1")
+L 05/11/2025 - 20:57:01: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_forcepreload") (value "1")
+L 05/11/2025 - 20:57:01: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_predict") (value "1")
+L 05/11/2025 - 20:57:01: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_cmdrate_difference") (value "0")
+L 05/11/2025 - 20:57:01: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec_global") (value "10")
+L 05/11/2025 - 20:57:01: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec") (value "3")
+L 05/11/2025 - 20:57:01: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_window") (value "10")
+L 05/11/2025 - 20:57:01: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_player_stuck_tolerance") (value "5")
+L 05/11/2025 - 20:57:01: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_stats") (value "0")
+L 05/11/2025 - 20:57:01: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_clockcorrection_msecs") (value "25")
+L 05/11/2025 - 20:57:01: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "decalfrequency") (value "0.1")
+L 05/11/2025 - 20:57:03: [optional/l4d2_saferoom_item_remove.smx] Removed 0 saferoom item(s) (start: 0; end: 0).
+L 05/11/2025 - 20:57:25: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "林<2><STEAM_1:1:541917832><>"
+L 05/11/2025 - 20:57:26: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "Bill<83><BOT><>"
+L 05/11/2025 - 20:57:26: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "林<2><STEAM_1:1:541917832><>"
+L 05/11/2025 - 20:57:27: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "Bill<83><BOT><>"
+L 05/11/2025 - 20:57:27: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "林<2><STEAM_1:1:541917832><>"
+L 05/11/2025 - 20:57:28: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "Bill<83><BOT><>"
+L 05/11/2025 - 20:57:28: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "林<2><STEAM_1:1:541917832><>"
+L 05/11/2025 - 20:57:29: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "Bill<83><BOT><>"
+L 05/11/2025 - 20:57:30: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "Bill<83><BOT><>"
+L 05/11/2025 - 20:58:52: [basecommands.smx] "林<2><STEAM_1:1:541917832><>" changed map to "c1m2_streets"
+L 05/11/2025 - 20:58:58: -------- Mapchange to c1m2_streets --------
+L 05/11/2025 - 20:59:00: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "confogl_match_execcfg_plugins") (value "generalfixes.cfg;confogl_plugins.cfg;sharedplugins.cfg")
+L 05/11/2025 - 20:59:00: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "l4d2_addons_eclipse") (value "0")
+L 05/11/2025 - 20:59:00: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_allow_wait_command") (value "0")
+L 05/11/2025 - 20:59:00: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minrate") (value "100000")
+L 05/11/2025 - 20:59:00: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxrate") (value "100000")
+L 05/11/2025 - 20:59:00: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minupdaterate") (value "100")
+L 05/11/2025 - 20:59:00: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxupdaterate") (value "100")
+L 05/11/2025 - 20:59:00: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_mincmdrate") (value "100")
+L 05/11/2025 - 20:59:00: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxcmdrate") (value "100")
+L 05/11/2025 - 20:59:00: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_min_interp_ratio") (value "-1")
+L 05/11/2025 - 20:59:00: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_max_interp_ratio") (value "2")
+L 05/11/2025 - 20:59:00: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "nb_update_frequency") (value "0.014")
+L 05/11/2025 - 20:59:00: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "net_splitpacket_maxrate") (value "50000")
+L 05/11/2025 - 20:59:00: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "net_maxcleartime") (value "0.0001")
+L 05/11/2025 - 20:59:00: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "fps_max") (value "0")
+L 05/11/2025 - 20:59:00: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "tick_door_speed") (value "1.3")
+L 05/11/2025 - 20:59:00: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mv_maxplayers") (value "30")
+L 05/11/2025 - 20:59:00: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mp_autoteambalance") (value "0")
+L 05/11/2025 - 20:59:00: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_unlag_fixstuck") (value "1")
+L 05/11/2025 - 20:59:00: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "z_brawl_chance") (value "0")
+L 05/11/2025 - 20:59:00: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxunlag") (value "1")
+L 05/11/2025 - 20:59:00: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_forcepreload") (value "1")
+L 05/11/2025 - 20:59:00: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_predict") (value "1")
+L 05/11/2025 - 20:59:00: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_cmdrate_difference") (value "0")
+L 05/11/2025 - 20:59:00: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec_global") (value "10")
+L 05/11/2025 - 20:59:00: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec") (value "3")
+L 05/11/2025 - 20:59:00: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_window") (value "10")
+L 05/11/2025 - 20:59:00: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_player_stuck_tolerance") (value "5")
+L 05/11/2025 - 20:59:00: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_stats") (value "0")
+L 05/11/2025 - 20:59:00: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_clockcorrection_msecs") (value "25")
+L 05/11/2025 - 20:59:00: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "decalfrequency") (value "0.1")
+L 05/11/2025 - 20:59:01: [optional/l4d2_saferoom_item_remove.smx] Removed 3 saferoom item(s) (start: 3; end: 0).
+L 05/11/2025 - 20:59:14: [basecommands.smx] "林<2><STEAM_1:1:541917832><>" changed cvar (cvar "multitanks_count_versus_regular") (value "1")
+L 05/11/2025 - 20:59:29: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "林<2><STEAM_1:1:541917832><>"
+L 05/11/2025 - 20:59:30: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "林<2><STEAM_1:1:541917832><>"
+L 05/11/2025 - 20:59:30: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "Nick<96><BOT><>"
+L 05/11/2025 - 20:59:31: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "林<2><STEAM_1:1:541917832><>"
+L 05/11/2025 - 20:59:31: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "林<2><STEAM_1:1:541917832><>"
+L 05/11/2025 - 20:59:32: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "Nick<96><BOT><>"
+L 05/11/2025 - 20:59:34: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "林<2><STEAM_1:1:541917832><>"
+L 05/11/2025 - 20:59:35: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "Nick<96><BOT><>"
+L 05/11/2025 - 21:00:00: [basecommands.smx] "林<2><STEAM_1:1:541917832><>" changed cvar (cvar "multitanks_count_versus_regular") (value "2")
+L 05/11/2025 - 21:01:12: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 将 林 传送到 Rochelle 的位置
+L 05/11/2025 - 21:03:12: -------- Mapchange to c2m1_highway --------
+L 05/11/2025 - 21:03:14: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "confogl_match_execcfg_plugins") (value "generalfixes.cfg;confogl_plugins.cfg;sharedplugins.cfg")
+L 05/11/2025 - 21:03:14: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "l4d2_addons_eclipse") (value "0")
+L 05/11/2025 - 21:03:14: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_allow_wait_command") (value "0")
+L 05/11/2025 - 21:03:14: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minrate") (value "100000")
+L 05/11/2025 - 21:03:14: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxrate") (value "100000")
+L 05/11/2025 - 21:03:14: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minupdaterate") (value "100")
+L 05/11/2025 - 21:03:14: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxupdaterate") (value "100")
+L 05/11/2025 - 21:03:14: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_mincmdrate") (value "100")
+L 05/11/2025 - 21:03:14: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxcmdrate") (value "100")
+L 05/11/2025 - 21:03:14: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_min_interp_ratio") (value "-1")
+L 05/11/2025 - 21:03:14: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_max_interp_ratio") (value "2")
+L 05/11/2025 - 21:03:14: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "nb_update_frequency") (value "0.014")
+L 05/11/2025 - 21:03:14: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "net_splitpacket_maxrate") (value "50000")
+L 05/11/2025 - 21:03:14: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "net_maxcleartime") (value "0.0001")
+L 05/11/2025 - 21:03:14: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "fps_max") (value "0")
+L 05/11/2025 - 21:03:14: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "tick_door_speed") (value "1.3")
+L 05/11/2025 - 21:03:14: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mv_maxplayers") (value "30")
+L 05/11/2025 - 21:03:14: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mp_autoteambalance") (value "0")
+L 05/11/2025 - 21:03:14: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_unlag_fixstuck") (value "1")
+L 05/11/2025 - 21:03:14: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "z_brawl_chance") (value "0")
+L 05/11/2025 - 21:03:14: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxunlag") (value "1")
+L 05/11/2025 - 21:03:14: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_forcepreload") (value "1")
+L 05/11/2025 - 21:03:14: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_predict") (value "1")
+L 05/11/2025 - 21:03:14: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_cmdrate_difference") (value "0")
+L 05/11/2025 - 21:03:14: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec_global") (value "10")
+L 05/11/2025 - 21:03:14: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec") (value "3")
+L 05/11/2025 - 21:03:14: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_window") (value "10")
+L 05/11/2025 - 21:03:14: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_player_stuck_tolerance") (value "5")
+L 05/11/2025 - 21:03:14: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_stats") (value "0")
+L 05/11/2025 - 21:03:14: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_clockcorrection_msecs") (value "25")
+L 05/11/2025 - 21:03:14: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "decalfrequency") (value "0.1")
+L 05/11/2025 - 21:03:15: [optional/l4d2_saferoom_item_remove.smx] Removed 0 saferoom item(s) (start: 0; end: 0).
+L 05/11/2025 - 21:04:56: [funcommands.smx] "林<2><STEAM_1:1:541917832><>" toggled noclip on "林<2><STEAM_1:1:541917832><>"
+L 05/11/2025 - 21:05:00: [funcommands.smx] "林<2><STEAM_1:1:541917832><>" toggled noclip on "林<2><STEAM_1:1:541917832><>"
+L 05/11/2025 - 21:05:26: [funcommands.smx] "林<2><STEAM_1:1:541917832><>" toggled noclip on "林<2><STEAM_1:1:541917832><>"
+L 05/11/2025 - 21:05:41: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "林<2><STEAM_1:1:541917832><>"
+L 05/11/2025 - 21:05:41: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "林<2><STEAM_1:1:541917832><>"
+L 05/11/2025 - 21:05:42: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "林<2><STEAM_1:1:541917832><>"
+L 05/11/2025 - 21:05:42: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "林<2><STEAM_1:1:541917832><>"
+L 05/11/2025 - 21:05:43: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "林<2><STEAM_1:1:541917832><>"
+L 05/11/2025 - 21:05:43: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "林<2><STEAM_1:1:541917832><>"
+L 05/11/2025 - 21:05:45: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "林<2><STEAM_1:1:541917832><>"
+L 05/11/2025 - 21:05:46: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "林<2><STEAM_1:1:541917832><>"
+L 05/11/2025 - 21:05:46: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "林<2><STEAM_1:1:541917832><>"
+L 05/11/2025 - 21:05:50: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "林<2><STEAM_1:1:541917832><>"
+L 05/11/2025 - 21:05:50: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "林<2><STEAM_1:1:541917832><>"
+L 05/11/2025 - 21:05:52: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "Zoey<111><BOT><>"
+L 05/11/2025 - 21:10:13: [fixes/firebulletsfix.smx] Found offset for Weapon_ShootPosition 286
+L 05/11/2025 - 21:10:14: [hostname.smx] [Dynamic Hostname] Hostname updated to: [Tes]8v8全牛进化版
+L 05/11/2025 - 21:10:14: [confoglcompmod.smx] [PasswordSystem] Set password on 林, password 
+L 05/11/2025 - 21:10:14: [confoglcompmod.smx] [PasswordSystem] Set password on 诺诺, password 
+L 05/11/2025 - 21:10:14: [hostname.smx] [Dynamic Hostname] Hostname updated to: [Tes]8v8全牛进化版
+L 05/11/2025 - 21:10:15: [fixes/firebulletsfix.smx] Found offset for Weapon_ShootPosition 286
+L 05/11/2025 - 21:10:16: [confoglcompmod.smx] [PasswordSystem] Set password on 林, password 
+L 05/11/2025 - 21:10:16: [confoglcompmod.smx] [PasswordSystem] Set password on 诺诺, password 
+L 05/11/2025 - 21:10:21: -------- Mapchange to c2m1_highway --------
+L 05/11/2025 - 21:10:23: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "confogl_match_execcfg_plugins") (value "generalfixes.cfg;confogl_plugins.cfg;sharedplugins.cfg")
+L 05/11/2025 - 21:10:23: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "l4d2_addons_eclipse") (value "0")
+L 05/11/2025 - 21:10:23: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_allow_wait_command") (value "0")
+L 05/11/2025 - 21:10:23: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minrate") (value "100000")
+L 05/11/2025 - 21:10:23: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxrate") (value "100000")
+L 05/11/2025 - 21:10:23: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minupdaterate") (value "100")
+L 05/11/2025 - 21:10:23: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxupdaterate") (value "100")
+L 05/11/2025 - 21:10:23: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_mincmdrate") (value "100")
+L 05/11/2025 - 21:10:23: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxcmdrate") (value "100")
+L 05/11/2025 - 21:10:23: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_min_interp_ratio") (value "-1")
+L 05/11/2025 - 21:10:23: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_max_interp_ratio") (value "2")
+L 05/11/2025 - 21:10:23: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "nb_update_frequency") (value "0.014")
+L 05/11/2025 - 21:10:23: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "net_splitpacket_maxrate") (value "50000")
+L 05/11/2025 - 21:10:23: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "net_maxcleartime") (value "0.0001")
+L 05/11/2025 - 21:10:23: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "fps_max") (value "0")
+L 05/11/2025 - 21:10:23: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "tick_door_speed") (value "1.3")
+L 05/11/2025 - 21:10:23: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mv_maxplayers") (value "30")
+L 05/11/2025 - 21:10:23: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mp_autoteambalance") (value "0")
+L 05/11/2025 - 21:10:23: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_unlag_fixstuck") (value "1")
+L 05/11/2025 - 21:10:23: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "z_brawl_chance") (value "0")
+L 05/11/2025 - 21:10:23: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxunlag") (value "1")
+L 05/11/2025 - 21:10:23: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_forcepreload") (value "1")
+L 05/11/2025 - 21:10:23: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_predict") (value "1")
+L 05/11/2025 - 21:10:23: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_cmdrate_difference") (value "0")
+L 05/11/2025 - 21:10:23: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec_global") (value "10")
+L 05/11/2025 - 21:10:23: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec") (value "3")
+L 05/11/2025 - 21:10:23: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_window") (value "10")
+L 05/11/2025 - 21:10:23: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_player_stuck_tolerance") (value "5")
+L 05/11/2025 - 21:10:23: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_stats") (value "0")
+L 05/11/2025 - 21:10:23: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_clockcorrection_msecs") (value "25")
+L 05/11/2025 - 21:10:23: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "decalfrequency") (value "0.1")
+L 05/11/2025 - 21:10:24: [optional/l4d2_saferoom_item_remove.smx] Removed 0 saferoom item(s) (start: 0; end: 0).
+L 05/11/2025 - 21:11:21: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "林<2><STEAM_1:1:541917832><>"
+L 05/11/2025 - 21:11:21: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "林<2><STEAM_1:1:541917832><>"
+L 05/11/2025 - 21:11:23: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "Bill<136><BOT><>"
+L 05/11/2025 - 21:13:47: [fixes/firebulletsfix.smx] Found offset for Weapon_ShootPosition 286
+L 05/11/2025 - 21:13:47: [hostname.smx] [Dynamic Hostname] Hostname updated to: [Tes]8v8全牛进化版
+L 05/11/2025 - 21:13:47: [confoglcompmod.smx] [PasswordSystem] Set password on 林, password 
+L 05/11/2025 - 21:13:47: [confoglcompmod.smx] [PasswordSystem] Set password on 诺诺, password 
+L 05/11/2025 - 21:13:47: [hostname.smx] [Dynamic Hostname] Hostname updated to: [Tes]8v8全牛进化版
+L 05/11/2025 - 21:13:49: [fixes/firebulletsfix.smx] Found offset for Weapon_ShootPosition 286
+L 05/11/2025 - 21:13:49: [confoglcompmod.smx] [PasswordSystem] Set password on 林, password 
+L 05/11/2025 - 21:13:49: [confoglcompmod.smx] [PasswordSystem] Set password on 诺诺, password 
+L 05/11/2025 - 21:13:55: -------- Mapchange to c2m1_highway --------
+L 05/11/2025 - 21:13:57: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "confogl_match_execcfg_plugins") (value "generalfixes.cfg;confogl_plugins.cfg;sharedplugins.cfg")
+L 05/11/2025 - 21:13:57: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "l4d2_addons_eclipse") (value "0")
+L 05/11/2025 - 21:13:57: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_allow_wait_command") (value "0")
+L 05/11/2025 - 21:13:57: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minrate") (value "100000")
+L 05/11/2025 - 21:13:57: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxrate") (value "100000")
+L 05/11/2025 - 21:13:57: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minupdaterate") (value "100")
+L 05/11/2025 - 21:13:57: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxupdaterate") (value "100")
+L 05/11/2025 - 21:13:57: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_mincmdrate") (value "100")
+L 05/11/2025 - 21:13:57: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxcmdrate") (value "100")
+L 05/11/2025 - 21:13:57: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_min_interp_ratio") (value "-1")
+L 05/11/2025 - 21:13:57: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_max_interp_ratio") (value "2")
+L 05/11/2025 - 21:13:57: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "nb_update_frequency") (value "0.014")
+L 05/11/2025 - 21:13:57: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "net_splitpacket_maxrate") (value "50000")
+L 05/11/2025 - 21:13:57: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "net_maxcleartime") (value "0.0001")
+L 05/11/2025 - 21:13:57: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "fps_max") (value "0")
+L 05/11/2025 - 21:13:57: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "tick_door_speed") (value "1.3")
+L 05/11/2025 - 21:13:57: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mv_maxplayers") (value "30")
+L 05/11/2025 - 21:13:57: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mp_autoteambalance") (value "0")
+L 05/11/2025 - 21:13:57: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_unlag_fixstuck") (value "1")
+L 05/11/2025 - 21:13:57: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "z_brawl_chance") (value "0")
+L 05/11/2025 - 21:13:57: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxunlag") (value "1")
+L 05/11/2025 - 21:13:57: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_forcepreload") (value "1")
+L 05/11/2025 - 21:13:57: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_predict") (value "1")
+L 05/11/2025 - 21:13:57: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_cmdrate_difference") (value "0")
+L 05/11/2025 - 21:13:57: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec_global") (value "10")
+L 05/11/2025 - 21:13:57: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec") (value "3")
+L 05/11/2025 - 21:13:57: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_window") (value "10")
+L 05/11/2025 - 21:13:57: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_player_stuck_tolerance") (value "5")
+L 05/11/2025 - 21:13:57: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_stats") (value "0")
+L 05/11/2025 - 21:13:57: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_clockcorrection_msecs") (value "25")
+L 05/11/2025 - 21:13:57: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "decalfrequency") (value "0.1")
+L 05/11/2025 - 21:13:58: [optional/l4d2_saferoom_item_remove.smx] Removed 0 saferoom item(s) (start: 0; end: 0).
+L 05/11/2025 - 21:14:12: [basecommands.smx] "林<2><STEAM_1:1:541917832><>" changed cvar (cvar "multitanks_count_versus_regular") (value "1")
+L 05/11/2025 - 21:14:42: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "Bill<162><BOT><>"
+L 05/11/2025 - 21:14:42: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "林<2><STEAM_1:1:541917832><>"
+L 05/11/2025 - 21:14:43: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "Bill<162><BOT><>"
+L 05/11/2025 - 21:14:43: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "Bill<162><BOT><>"
+L 05/11/2025 - 21:18:46: [fixes/firebulletsfix.smx] Found offset for Weapon_ShootPosition 286
+L 05/11/2025 - 21:18:46: [hostname.smx] [Dynamic Hostname] Hostname updated to: [Tes]8v8全牛进化版
+L 05/11/2025 - 21:18:46: [confoglcompmod.smx] [PasswordSystem] Set password on 林, password 
+L 05/11/2025 - 21:18:46: [confoglcompmod.smx] [PasswordSystem] Set password on 诺诺, password 
+L 05/11/2025 - 21:18:46: [hostname.smx] [Dynamic Hostname] Hostname updated to: [Tes]8v8全牛进化版
+L 05/11/2025 - 21:18:48: [fixes/firebulletsfix.smx] Found offset for Weapon_ShootPosition 286
+L 05/11/2025 - 21:18:48: [confoglcompmod.smx] [PasswordSystem] Set password on 林, password 
+L 05/11/2025 - 21:18:48: [confoglcompmod.smx] [PasswordSystem] Set password on 诺诺, password 
+L 05/11/2025 - 21:18:53: -------- Mapchange to c2m1_highway --------
+L 05/11/2025 - 21:18:56: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "confogl_match_execcfg_plugins") (value "generalfixes.cfg;confogl_plugins.cfg;sharedplugins.cfg")
+L 05/11/2025 - 21:18:56: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "l4d2_addons_eclipse") (value "0")
+L 05/11/2025 - 21:18:56: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_allow_wait_command") (value "0")
+L 05/11/2025 - 21:18:56: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minrate") (value "100000")
+L 05/11/2025 - 21:18:56: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxrate") (value "100000")
+L 05/11/2025 - 21:18:56: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minupdaterate") (value "100")
+L 05/11/2025 - 21:18:56: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxupdaterate") (value "100")
+L 05/11/2025 - 21:18:56: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_mincmdrate") (value "100")
+L 05/11/2025 - 21:18:56: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxcmdrate") (value "100")
+L 05/11/2025 - 21:18:56: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_min_interp_ratio") (value "-1")
+L 05/11/2025 - 21:18:56: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_max_interp_ratio") (value "2")
+L 05/11/2025 - 21:18:56: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "nb_update_frequency") (value "0.014")
+L 05/11/2025 - 21:18:56: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "net_splitpacket_maxrate") (value "50000")
+L 05/11/2025 - 21:18:56: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "net_maxcleartime") (value "0.0001")
+L 05/11/2025 - 21:18:56: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "fps_max") (value "0")
+L 05/11/2025 - 21:18:56: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "tick_door_speed") (value "1.3")
+L 05/11/2025 - 21:18:56: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mv_maxplayers") (value "30")
+L 05/11/2025 - 21:18:56: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mp_autoteambalance") (value "0")
+L 05/11/2025 - 21:18:56: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_unlag_fixstuck") (value "1")
+L 05/11/2025 - 21:18:56: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "z_brawl_chance") (value "0")
+L 05/11/2025 - 21:18:56: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxunlag") (value "1")
+L 05/11/2025 - 21:18:56: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_forcepreload") (value "1")
+L 05/11/2025 - 21:18:56: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_predict") (value "1")
+L 05/11/2025 - 21:18:56: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_cmdrate_difference") (value "0")
+L 05/11/2025 - 21:18:56: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec_global") (value "10")
+L 05/11/2025 - 21:18:56: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec") (value "3")
+L 05/11/2025 - 21:18:56: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_window") (value "10")
+L 05/11/2025 - 21:18:56: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_player_stuck_tolerance") (value "5")
+L 05/11/2025 - 21:18:56: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_stats") (value "0")
+L 05/11/2025 - 21:18:56: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_clockcorrection_msecs") (value "25")
+L 05/11/2025 - 21:18:56: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "decalfrequency") (value "0.1")
+L 05/11/2025 - 21:18:57: [optional/l4d2_saferoom_item_remove.smx] Removed 0 saferoom item(s) (start: 0; end: 0).
+L 05/11/2025 - 21:19:26: [funcommands.smx] "林<2><STEAM_1:1:541917832><>" toggled noclip on "林<2><STEAM_1:1:541917832><>"
+L 05/11/2025 - 21:19:27: [funcommands.smx] "林<2><STEAM_1:1:541917832><>" toggled noclip on "林<2><STEAM_1:1:541917832><>"
+L 05/11/2025 - 21:19:33: [l4d_sm_respawn.smx] "林<2><STEAM_1:1:541917832><>" 传送了 "Bill<185><BOT><>"
+L 05/11/2025 - 21:28:44: SourceMod log file session started (file "/home/steam/l4d2/left4dead2/addons/sourcemod/logs/L20250511.log") (Version "1.12.0.7195")
+L 05/11/2025 - 21:28:44: [GEOIP] GeoIP2 database loaded: GeoLite2-City (2019-12-17 20:01:26 UTC) (/home/steam/l4d2/left4dead2/addons/sourcemod/configs/geoip/GeoLite2-City.mmdb)
+L 05/11/2025 - 21:28:44: [GEOIP] GeoIP2 supported languages: de en es fr ja pt-BR ru zh-CN
+L 05/11/2025 - 21:28:44: [GEOIP] Your database is older than 90 days. You should consider downloading a newer version from e.g. https://dev.maxmind.com/geoip/geolite2-free-geolocation-data
+L 05/11/2025 - 21:28:44: [fixes/firebulletsfix.smx] Found offset for Weapon_ShootPosition 286
+L 05/11/2025 - 21:28:44: [hostname.smx] [Dynamic Hostname] Hostname updated to: [Tes]8v8全牛进化版
+L 05/11/2025 - 21:28:47: [hostname.smx] [Dynamic Hostname] Hostname updated to: [Tes]8v8全牛进化版
+L 05/11/2025 - 21:28:47: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "confogl_match_execcfg_plugins") (value "generalfixes.cfg;confogl_plugins.cfg;sharedplugins.cfg")
+L 05/11/2025 - 21:28:47: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "l4d2_addons_eclipse") (value "0")
+L 05/11/2025 - 21:28:47: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_allow_wait_command") (value "0")
+L 05/11/2025 - 21:28:47: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minrate") (value "100000")
+L 05/11/2025 - 21:28:47: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxrate") (value "100000")
+L 05/11/2025 - 21:28:47: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minupdaterate") (value "100")
+L 05/11/2025 - 21:28:47: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxupdaterate") (value "100")
+L 05/11/2025 - 21:28:47: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_mincmdrate") (value "100")
+L 05/11/2025 - 21:28:47: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxcmdrate") (value "100")
+L 05/11/2025 - 21:28:47: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_min_interp_ratio") (value "-1")
+L 05/11/2025 - 21:28:47: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_max_interp_ratio") (value "2")
+L 05/11/2025 - 21:28:47: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "nb_update_frequency") (value "0.014")
+L 05/11/2025 - 21:28:47: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "net_splitpacket_maxrate") (value "50000")
+L 05/11/2025 - 21:28:47: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "net_maxcleartime") (value "0.0001")
+L 05/11/2025 - 21:28:47: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "fps_max") (value "0")
+L 05/11/2025 - 21:28:47: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "tick_door_speed") (value "1.3")
+L 05/11/2025 - 21:28:47: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mv_maxplayers") (value "30")
+L 05/11/2025 - 21:28:47: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mp_autoteambalance") (value "0")
+L 05/11/2025 - 21:28:47: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_unlag_fixstuck") (value "1")
+L 05/11/2025 - 21:28:47: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "z_brawl_chance") (value "0")
+L 05/11/2025 - 21:28:47: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxunlag") (value "1")
+L 05/11/2025 - 21:28:47: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_forcepreload") (value "1")
+L 05/11/2025 - 21:28:47: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_predict") (value "1")
+L 05/11/2025 - 21:28:47: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_cmdrate_difference") (value "0")
+L 05/11/2025 - 21:28:47: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec_global") (value "10")
+L 05/11/2025 - 21:28:47: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec") (value "3")
+L 05/11/2025 - 21:28:47: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_window") (value "10")
+L 05/11/2025 - 21:28:47: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_player_stuck_tolerance") (value "5")
+L 05/11/2025 - 21:28:47: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_stats") (value "0")
+L 05/11/2025 - 21:28:47: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_clockcorrection_msecs") (value "25")
+L 05/11/2025 - 21:28:47: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "decalfrequency") (value "0.1")
+L 05/11/2025 - 21:28:48: [fixes/firebulletsfix.smx] Found offset for Weapon_ShootPosition 286
+L 05/11/2025 - 21:28:52: -------- Mapchange to c2m1_highway --------
+L 05/11/2025 - 21:28:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "confogl_match_execcfg_plugins") (value "generalfixes.cfg;confogl_plugins.cfg;sharedplugins.cfg")
+L 05/11/2025 - 21:28:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "l4d2_addons_eclipse") (value "0")
+L 05/11/2025 - 21:28:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_allow_wait_command") (value "0")
+L 05/11/2025 - 21:28:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minrate") (value "100000")
+L 05/11/2025 - 21:28:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxrate") (value "100000")
+L 05/11/2025 - 21:28:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minupdaterate") (value "100")
+L 05/11/2025 - 21:28:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxupdaterate") (value "100")
+L 05/11/2025 - 21:28:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_mincmdrate") (value "100")
+L 05/11/2025 - 21:28:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxcmdrate") (value "100")
+L 05/11/2025 - 21:28:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_min_interp_ratio") (value "-1")
+L 05/11/2025 - 21:28:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_max_interp_ratio") (value "2")
+L 05/11/2025 - 21:28:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "nb_update_frequency") (value "0.014")
+L 05/11/2025 - 21:28:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "net_splitpacket_maxrate") (value "50000")
+L 05/11/2025 - 21:28:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "net_maxcleartime") (value "0.0001")
+L 05/11/2025 - 21:28:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "fps_max") (value "0")
+L 05/11/2025 - 21:28:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "tick_door_speed") (value "1.3")
+L 05/11/2025 - 21:28:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mv_maxplayers") (value "30")
+L 05/11/2025 - 21:28:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mp_autoteambalance") (value "0")
+L 05/11/2025 - 21:28:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_unlag_fixstuck") (value "1")
+L 05/11/2025 - 21:28:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "z_brawl_chance") (value "0")
+L 05/11/2025 - 21:28:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxunlag") (value "1")
+L 05/11/2025 - 21:28:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_forcepreload") (value "1")
+L 05/11/2025 - 21:28:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_predict") (value "1")
+L 05/11/2025 - 21:28:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_cmdrate_difference") (value "0")
+L 05/11/2025 - 21:28:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec_global") (value "10")
+L 05/11/2025 - 21:28:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec") (value "3")
+L 05/11/2025 - 21:28:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_window") (value "10")
+L 05/11/2025 - 21:28:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_player_stuck_tolerance") (value "5")
+L 05/11/2025 - 21:28:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_stats") (value "0")
+L 05/11/2025 - 21:28:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_clockcorrection_msecs") (value "25")
+L 05/11/2025 - 21:28:54: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "decalfrequency") (value "0.1")
+L 05/11/2025 - 21:28:55: [optional/l4d2_saferoom_item_remove.smx] Removed 0 saferoom item(s) (start: 0; end: 0).
+L 05/11/2025 - 23:35:09: SourceMod log file session started (file "/home/steam/l4d2/left4dead2/addons/sourcemod/logs/L20250511.log") (Version "1.12.0.7195")
+L 05/11/2025 - 23:35:09: [GEOIP] GeoIP2 database loaded: GeoLite2-City (2019-12-17 20:01:26 UTC) (/home/steam/l4d2/left4dead2/addons/sourcemod/configs/geoip/GeoLite2-City.mmdb)
+L 05/11/2025 - 23:35:09: [GEOIP] GeoIP2 supported languages: de en es fr ja pt-BR ru zh-CN
+L 05/11/2025 - 23:35:09: [GEOIP] Your database is older than 90 days. You should consider downloading a newer version from e.g. https://dev.maxmind.com/geoip/geolite2-free-geolocation-data
+L 05/11/2025 - 23:35:09: [fixes/firebulletsfix.smx] Found offset for Weapon_ShootPosition 286
+L 05/11/2025 - 23:35:09: [hostname.smx] [Dynamic Hostname] Hostname updated to: [Tes]8v8全牛进化版
+L 05/11/2025 - 23:35:11: [hostname.smx] [Dynamic Hostname] Hostname updated to: [Tes]8v8全牛进化版
+L 05/11/2025 - 23:35:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "confogl_match_execcfg_plugins") (value "generalfixes.cfg;confogl_plugins.cfg;sharedplugins.cfg")
+L 05/11/2025 - 23:35:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "l4d2_addons_eclipse") (value "0")
+L 05/11/2025 - 23:35:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_allow_wait_command") (value "0")
+L 05/11/2025 - 23:35:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minrate") (value "100000")
+L 05/11/2025 - 23:35:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxrate") (value "100000")
+L 05/11/2025 - 23:35:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minupdaterate") (value "100")
+L 05/11/2025 - 23:35:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxupdaterate") (value "100")
+L 05/11/2025 - 23:35:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_mincmdrate") (value "100")
+L 05/11/2025 - 23:35:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxcmdrate") (value "100")
+L 05/11/2025 - 23:35:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_min_interp_ratio") (value "-1")
+L 05/11/2025 - 23:35:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_max_interp_ratio") (value "2")
+L 05/11/2025 - 23:35:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "nb_update_frequency") (value "0.014")
+L 05/11/2025 - 23:35:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "net_splitpacket_maxrate") (value "50000")
+L 05/11/2025 - 23:35:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "net_maxcleartime") (value "0.0001")
+L 05/11/2025 - 23:35:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "fps_max") (value "0")
+L 05/11/2025 - 23:35:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "tick_door_speed") (value "1.3")
+L 05/11/2025 - 23:35:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mv_maxplayers") (value "30")
+L 05/11/2025 - 23:35:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mp_autoteambalance") (value "0")
+L 05/11/2025 - 23:35:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_unlag_fixstuck") (value "1")
+L 05/11/2025 - 23:35:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "z_brawl_chance") (value "0")
+L 05/11/2025 - 23:35:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxunlag") (value "1")
+L 05/11/2025 - 23:35:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_forcepreload") (value "1")
+L 05/11/2025 - 23:35:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_predict") (value "1")
+L 05/11/2025 - 23:35:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_cmdrate_difference") (value "0")
+L 05/11/2025 - 23:35:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec_global") (value "10")
+L 05/11/2025 - 23:35:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec") (value "3")
+L 05/11/2025 - 23:35:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_window") (value "10")
+L 05/11/2025 - 23:35:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_player_stuck_tolerance") (value "5")
+L 05/11/2025 - 23:35:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_stats") (value "0")
+L 05/11/2025 - 23:35:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_clockcorrection_msecs") (value "25")
+L 05/11/2025 - 23:35:12: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "decalfrequency") (value "0.1")
+L 05/11/2025 - 23:35:12: [fixes/firebulletsfix.smx] Found offset for Weapon_ShootPosition 286
+L 05/11/2025 - 23:35:16: -------- Mapchange to c2m1_highway --------
+L 05/11/2025 - 23:35:18: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "confogl_match_execcfg_plugins") (value "generalfixes.cfg;confogl_plugins.cfg;sharedplugins.cfg")
+L 05/11/2025 - 23:35:18: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "l4d2_addons_eclipse") (value "0")
+L 05/11/2025 - 23:35:18: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_allow_wait_command") (value "0")
+L 05/11/2025 - 23:35:18: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minrate") (value "100000")
+L 05/11/2025 - 23:35:18: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxrate") (value "100000")
+L 05/11/2025 - 23:35:18: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_minupdaterate") (value "100")
+L 05/11/2025 - 23:35:18: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxupdaterate") (value "100")
+L 05/11/2025 - 23:35:18: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_mincmdrate") (value "100")
+L 05/11/2025 - 23:35:18: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxcmdrate") (value "100")
+L 05/11/2025 - 23:35:18: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_min_interp_ratio") (value "-1")
+L 05/11/2025 - 23:35:18: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_max_interp_ratio") (value "2")
+L 05/11/2025 - 23:35:18: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "nb_update_frequency") (value "0.014")
+L 05/11/2025 - 23:35:18: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "net_splitpacket_maxrate") (value "50000")
+L 05/11/2025 - 23:35:18: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "net_maxcleartime") (value "0.0001")
+L 05/11/2025 - 23:35:18: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "fps_max") (value "0")
+L 05/11/2025 - 23:35:18: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "tick_door_speed") (value "1.3")
+L 05/11/2025 - 23:35:18: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mv_maxplayers") (value "30")
+L 05/11/2025 - 23:35:18: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "mp_autoteambalance") (value "0")
+L 05/11/2025 - 23:35:18: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_unlag_fixstuck") (value "1")
+L 05/11/2025 - 23:35:18: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "z_brawl_chance") (value "0")
+L 05/11/2025 - 23:35:18: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_maxunlag") (value "1")
+L 05/11/2025 - 23:35:18: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_forcepreload") (value "1")
+L 05/11/2025 - 23:35:18: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_predict") (value "1")
+L 05/11/2025 - 23:35:18: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_client_cmdrate_difference") (value "0")
+L 05/11/2025 - 23:35:18: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec_global") (value "10")
+L 05/11/2025 - 23:35:18: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_sec") (value "3")
+L 05/11/2025 - 23:35:18: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_max_queries_window") (value "10")
+L 05/11/2025 - 23:35:18: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_player_stuck_tolerance") (value "5")
+L 05/11/2025 - 23:35:18: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_stats") (value "0")
+L 05/11/2025 - 23:35:18: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "sv_clockcorrection_msecs") (value "25")
+L 05/11/2025 - 23:35:18: [basecommands.smx] "Console<0><Console><Console>" changed cvar (cvar "decalfrequency") (value "0.1")
+L 05/11/2025 - 23:35:19: [optional/l4d2_saferoom_item_remove.smx] Removed 0 saferoom item(s) (start: 0; end: 0).

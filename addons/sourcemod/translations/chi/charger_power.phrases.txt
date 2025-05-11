@@ -1,0 +1,15 @@
+"Phrases"
+{
+	"Information"
+	{
+		"en"	"Hint"
+		"zho"	"提示"
+		"chi"	"提示"
+	}
+	"Move objects"
+	{
+		"en"	"You can move objects by hitting them when using own ability"
+		"zho"	"使用衝撞能力可以移動車子物件"
+		"chi"	"使用冲撞能力可以移动车子物件"
+	}
+}
