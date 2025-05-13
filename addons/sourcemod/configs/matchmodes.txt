@@ -2,7 +2,7 @@
 {
 	"8v8"
 	{
-		"zc8v8"
+		"chargers8v8"
 		{
 			"name" "Charger 8v8 0.1a"
 		}

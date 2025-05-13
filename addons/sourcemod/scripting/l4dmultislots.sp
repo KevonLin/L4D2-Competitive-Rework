@@ -238,7 +238,6 @@ public void OnPluginStart()
 	HookEvent("map_transition", Event_MapTransition); //戰役過關到下一關的時候 (沒有觸發round_end)	
 
 	RegAdminCmd("sm_muladdbot", ADMAddBot, ADMFLAG_ROOT, "Usage: sm_muladdbot <number> - Attempt to add a survivor bot (will not be kicked by this plugin until someone takes over)");
-	RegConsoleCmd("sm_js", JoinTeam, "Attempt to join Survivors");
 
 	AddCommandListener(ServerCmd_changelevel, "changelevel");
 
@@ -420,32 +419,6 @@ Action Timer_ADMAddBot(Handle timer, int client)
 	}
 
 	return Plugin_Continue;
-}
-
-Action JoinTeam(int client,int args)
-{
-	if (client == 0)
-	{
-		PrintToServer("[TS] This command cannot be used by server.");
-		return Plugin_Handled;
-	}
-
-	if(!IsClientInGame(client))
-		return Plugin_Continue;
-
-	if(g_bCvar_JoinCommandBlock == true)
-		return Plugin_Handled;
-
-	if(g_bCvar_VSCommandBalance && L4D_HasPlayerControlledZombies())
-	{
-		CreateTimer(0.15, JoinTeam_VSCommandBalance, GetClientUserId(client), TIMER_FLAG_NO_MAPCHANGE);
-	}
-	else
-	{
-		CreateTimer(0.15, JoinTeam_ColdDown, GetClientUserId(client), TIMER_FLAG_NO_MAPCHANGE);
-	}
-
-	return Plugin_Handled;
 }
 
 public void OnClientPutInServer(int client)
