@@ -251,27 +251,31 @@ public Action OnPlayerRunCmd(int client, int &buttons)
         {
             int anger = GetEntProp(client, Prop_Send, "m_frustration");
             
-            if (anger >= 95 && data[0] < g_iRefillLimit)
+            if (anger >= 95)
             {
-                SetEntProp(client, Prop_Send, "m_frustration", 0);
-                data[0]++;
-                SetTrieArray(g_hTankData, key, data, sizeof(data));
-                
-                Call_StartForward(g_fwdOnPassesChanged);
-                Call_PushCell(client);
-                Call_PushCell(data[0]);
-                Call_Finish();
-
-                for (int i = 1; i <= MaxClients; i++) 
+                if(data[0] < g_iRefillLimit)
                 {
-                    if (!IsClientInGame(i) || IsFakeClient(i))
-                        continue;
+                    SetEntProp(client, Prop_Send, "m_frustration", 0);
+                    data[0]++;
+                    SetTrieArray(g_hTankData, key, data, sizeof(data));
+                    
+                    Call_StartForward(g_fwdOnPassesChanged);
+                    Call_PushCell(client);
+                    Call_PushCell(data[0]);
+                    Call_Finish();
 
-                    if (client == i) 
-                        CPrintToChat(i, "{red}<{default}Tank Rage{red}> Refilled");
-                    else 
-                        CPrintToChat(i, "{red}<{default}Tank Rage{red}> %N Refilled", client);
+                    for (int i = 1; i <= MaxClients; i++) 
+                    {
+                        if (!IsClientInGame(i) || IsFakeClient(i))
+                            continue;
+
+                        if (client == i) 
+                            CPrintToChat(i, "{red}<{default}Tank Rage{red}> Refilled");
+                        else if (GetClientTeam(i) != L4D_TEAM_SURVIVOR)
+                            CPrintToChat(i, "{red}<{default}Tank Rage{red}> %N Refilled", client);
+                    }
                 }
+                ForcePlayerSuicide(client);
             }
         }
     }

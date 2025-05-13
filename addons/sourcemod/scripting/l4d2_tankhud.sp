@@ -8,7 +8,7 @@
 #define L4D2UTIL_STOCKS_ONLY 1
 #include <l4d2util>
 
-#define PLUGIN_VERSION "2.1"
+#define PLUGIN_VERSION "2.2"
 
 public Plugin myinfo = 
 {
@@ -199,19 +199,20 @@ void BuildHUDContent(Panel panel)
         // Health Info
         int iHealth = GetClientHealth(tank);
         int iMaxHealth = GetEntProp(tank, Prop_Send, "m_iMaxHealth");
+        float healthPercent = L4D2Util_IntToPercentFloat(iHealth, iMaxHealth);
         if (iHealth <= 0 || IsIncapacitated(tank))
         {
             sInfo = "Health  : Dead";
         }
         else
         {
-            FormatEx(sInfo, sizeof(sInfo), "Health  : %i / %i", iHealth, iMaxHealth);
+            FormatEx(sInfo, sizeof(sInfo), "Health  : %i / %i%%", iHealth, L4D2Util_GetMax(1, RoundFloat(healthPercent)));
         }
         DrawPanelText(panel, sInfo);
 
         // Frustration
         if (!IsFakeClient(tank))
-            Format(sInfo, sizeof(sInfo), "Frustr.  : %d", GetTankFrustration(tank));
+            Format(sInfo, sizeof(sInfo), "Frustr.  : %i%%", GetTankFrustration(tank));
         else
             Format(sInfo, sizeof(sInfo), "Frustr.  : AI");
         DrawPanelText(panel, sInfo);
