@@ -67,7 +67,7 @@ int g_iMaxSurvivors, g_iMinSurvivors, iDeadBotTime, g_iCvarFirstWeapon, g_iCvarS
 int g_iRoundStart, g_iPlayerSpawn, BufferHP = -1;
 bool bKill, g_bLeftSafeRoom, g_bStripBotWeapons, g_bSpawnSurvivorsAtStart, g_bEnableKick,
 	g_bGiveKitSafeRoom, g_bGiveKitFinalStart, g_bFinalHasStarted, g_bPluginHasStarted,
-	g_bCvar_JoinCommandBlock, g_bCvar_VSCommandBalance;
+	g_bCvar_JoinCommandBlock;
 //bool g_bCvar_VSAutoBalance;
 float g_fSpecCheckInterval, g_fInvincibleTime;
 Handle SpecCheckTimer, PlayerLeftStartTimer, CountDownTimer;
@@ -346,8 +346,6 @@ void GetCvars()
 	g_iNoSecondChane = g_hNoSecondChane.IntValue;
 	g_fInvincibleTime = g_hCvar_InvincibleTime.FloatValue;
 	g_bCvar_JoinCommandBlock = g_hCvar_JoinCommandBlock.BoolValue;
-	//g_bCvar_VSAutoBalance = g_hCvar_VSAutoBalance.BoolValue;
-	g_bCvar_VSCommandBalance = g_hCvar_VSCommandBalance.BoolValue;
 	g_iCvar_VSUnBalanceLimit = g_hCvar_VSUnBalanceLimit.IntValue;
 
 	iOffiicalCvar_survivor_respawn_with_guns = survivor_respawn_with_guns.IntValue;
@@ -785,95 +783,6 @@ Action JoinTeam_ColdDown(Handle timer, int userid)
 	return Plugin_Continue;
 }
 
-Action JoinTeam_VSCommandBalance(Handle timer, int userid)
-{
-	int client = GetClientOfUserId(userid);
-
-	if(!client || !IsClientInGame(client))
-		return Plugin_Continue;
-
-	int team = GetClientTeam(client);
-	if(team == TEAM_SURVIVORS)
-	{	
-		if(DispatchKeyValue(client, "classname", "player") == true)
-		{
-			//PrintHintText(client, "%T", "You are already on the team of survivors.", client);
-		}
-		else if((DispatchKeyValue(client, "classname", "info_survivor_position") == true) && !IsPlayerAlive(client))
-		{
-			PrintHintText(client, "%T", "Please wait to be revived or rescued", client);
-		}
-	}
-	else if(IsClientIdle(client))
-	{
-		PrintHintText(client, "%T", "You are idle. press the left mouse button to join the survivors!", client); 
-	}
-	else
-	{
-		int maxSurvivorSlots = GetTeamMaxSlots(TEAM_SURVIVORS);
-		int survivorUsedSlots = GetTeamHumanCount(TEAM_SURVIVORS);
-		int freeSurvivorSlots = (maxSurvivorSlots - survivorUsedSlots);
-		int maxInfectedSlots = GetTeamMaxSlots(TEAM_INFECTED);
-		int infectedUsedSlots = GetTeamHumanCount(TEAM_INFECTED);
-		int freeInfectedSlots = (maxInfectedSlots - infectedUsedSlots);
-		if(team <= TEAM_SPECTATORS)
-		{
-			if(survivorUsedSlots >= infectedUsedSlots + g_iCvar_VSUnBalanceLimit ) //特感比較少人
-			{
-				if(freeInfectedSlots > 0) //特感還有位子
-				{
-					PrintHintText(client, "%T", "Too many survivors, unbalance", client); 
-					return Plugin_Continue;
-				}
-			}
-			else if(survivorUsedSlots + g_iCvar_VSUnBalanceLimit <= infectedUsedSlots) //人類比較少人
-			{
-				if(freeSurvivorSlots <= 0) //人類沒有位子
-				{
-					PrintHintText(client, "%T", "Sorry! No survivor slots", client); 
-					return Plugin_Continue; 
-				}
-			}
-			else //雙方隊伍數量相等
-			{
-				if(freeSurvivorSlots <= 0) //人類沒有位子
-				{
-					PrintHintText(client, "%T", "Sorry! No survivor slots", client); 
-					return Plugin_Continue; 
-				}
-			}
-		}
-		else
-		{
-			if(survivorUsedSlots >= infectedUsedSlots + g_iCvar_VSUnBalanceLimit ) //特感比較少人
-			{
-				PrintHintText(client, "%T", "Too many survivors, unbalance", client); 
-				return Plugin_Continue;
-			}
-			else if(survivorUsedSlots + g_iCvar_VSUnBalanceLimit <= infectedUsedSlots) //人類比較少人
-			{
-				if(freeSurvivorSlots <= 0) //人類沒有位子
-				{
-					PrintHintText(client, "%T", "Sorry! No survivor slots", client); 
-					return Plugin_Continue; 
-				}
-			}
-			else //雙方隊伍數量相等
-			{
-				if(freeSurvivorSlots <= 0) //人類沒有位子
-				{
-					PrintHintText(client, "%T", "Sorry! No survivor slots", client); 
-					return Plugin_Continue; 
-				}
-			}
-		}
-
-		CreateTimer(0.1, JoinTeam_ColdDown, userid, TIMER_FLAG_NO_MAPCHANGE);
-	}
-
-	return Plugin_Continue;
-}
-
 int iCountDownTime;
 Action Timer_PluginStart(Handle timer)
 {
@@ -1029,78 +938,6 @@ Action Timer_NewPlayerAutoJoinTeam_Coop(Handle timer, int userid)
 
 	return Plugin_Continue;
 }
-/*
-Action Timer_NewPlayerAutoJoinTeam_Versus(Handle timer, int userid)
-{
-	int client = GetClientOfUserId(userid);
-
-	if(!client || !IsClientInGame(client))
-		return Plugin_Continue;
-
-	int team = GetClientTeam(client);
-	int maxSurvivorSlots = GetTeamMaxSlots(TEAM_SURVIVORS);
-	int survivorUsedSlots = GetTeamHumanCount(TEAM_SURVIVORS);
-	int freeSurvivorSlots = (maxSurvivorSlots - survivorUsedSlots);
-	int maxInfectedSlots = GetTeamMaxSlots(TEAM_INFECTED);
-	int infectedUsedSlots = GetTeamHumanCount(TEAM_INFECTED);
-	int freeInfectedSlots = (maxInfectedSlots - infectedUsedSlots);
-	if(team <= TEAM_SPECTATORS)
-	{
-		if(survivorUsedSlots >= infectedUsedSlots + g_iCvar_VSUnBalanceLimit) //特感比較少人
-		{
-			if(freeInfectedSlots > 0) //特感還有位子
-			{
-				ChangeClientTeam(client, TEAM_INFECTED);
-			}
-		}
-		else if(survivorUsedSlots + g_iCvar_VSUnBalanceLimit <= infectedUsedSlots) //人類比較少人
-		{
-			if(freeSurvivorSlots > 0) //人類還有位子
-			{
-				CreateTimer(0.1, JoinTeam_ColdDown, userid, TIMER_FLAG_NO_MAPCHANGE);
-			}
-		}
-		else //雙方隊伍數量相等
-		{
-			if(freeSurvivorSlots > 0) //人類還有位子
-			{
-				CreateTimer(0.1, JoinTeam_ColdDown, userid, TIMER_FLAG_NO_MAPCHANGE);
-			}
-			else if(freeInfectedSlots > 0) // 特感還有位子
-			{
-				ChangeClientTeam(client, TEAM_INFECTED);
-			}
-		}
-	}
-	else
-	{
-		if(survivorUsedSlots >= infectedUsedSlots + 1 + g_iCvar_VSUnBalanceLimit) //特感比較少人且相差一位以上
-		{
-			if(team == TEAM_INFECTED) return Plugin_Stop;
-
-			if(freeInfectedSlots > 0) //特感還有位子
-			{
-				ChangeClientTeam(client, TEAM_INFECTED);
-			}
-		}
-		else if(survivorUsedSlots + 1 + g_iCvar_VSUnBalanceLimit <= infectedUsedSlots) //人類比較少人且相差一位以上
-		{
-			if(team == TEAM_SURVIVORS) return Plugin_Stop;
-
-			if(freeSurvivorSlots > 0) //人類還有位子
-			{
-				CreateTimer(0.1, JoinTeam_ColdDown, userid, TIMER_FLAG_NO_MAPCHANGE);
-			}
-		}
-		else //隊伍相差一位玩家有平衡
-		{
-			return Plugin_Continue;
-		}
-	}
-
-	return Plugin_Continue;
-}
-*/
 
 Action Timer_KickNoNeededBot(Handle timer, int botid)
 {
@@ -1688,29 +1525,6 @@ int GetTeamMaxSlots(int team)
 	}
 	
 	return teammaxslots;
-}
-
-int GetTeamHumanCount(int team)
-{
-	int humans = 0;
-	int iTeam;
-	for(int i = 1; i < (MaxClients + 1); i++)
-	{
-		if(IsClientInGame(i) && !IsFakeClient(i))
-		{
-			iTeam = GetClientTeam(i);
-			if(iTeam == 1 && team == 2)
-			{
-				if(IsClientIdle(i)) humans++;
-			}
-			else if (iTeam == team)
-			{
-				humans++;
-			}
-		}
-	}
-	
-	return humans;
 }
 
 void SaveObservers()
