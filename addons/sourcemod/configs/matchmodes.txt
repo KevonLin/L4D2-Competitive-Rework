@@ -1,5 +1,12 @@
 "MatchModes"
 {
+	"CedaMOd Configs"
+	{
+		"cedamod"
+		{
+			"name" "CedaMod 2.9"
+		}
+	}
 	"ZoneMod Configs"
 	{
 		"zonemod"
