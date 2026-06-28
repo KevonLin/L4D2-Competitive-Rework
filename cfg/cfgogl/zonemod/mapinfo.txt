@@ -1118,9 +1118,9 @@
 		"end_dist"			"245.495361"
 		"tank_ban_flow"
 		{
-			"During sewers"
+			"During sewers + double ladder drop"
 			{
-				"min"		"60"
+				"min"		"52"
 				"max"		"79"
 			}
 		}
@@ -2987,9 +2987,12 @@
 //=============== Outline 跨越边境
 	"outline_m4"
 	{
+	//	"max_distance"		"800"
+	//	900 now, consider reduce score because its too long stages? not sure how to do
+	//	现版本自带是900分，考虑降低路程分？不确定如何做
 		"ItemLimits"
 		{
-			"pain_pills"	"4"
+			"pain_pills"	"6"
 		}
 	}
 	
@@ -3098,6 +3101,21 @@
 		{
 			"pain_pills"	"4"
 		}
+		"witch_ban_flow"
+		{
+			"Early"
+			{
+				"min"		"0"
+				"max"		"30"
+			}
+		}
+	}
+	"dc2025_5"
+	{
+		"ItemLimits"
+		{
+			"pain_pills" "6"
+ 		}
 	}
 
 //=======================================================================
